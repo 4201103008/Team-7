@@ -1,0 +1,316 @@
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\StyleCF.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\StyleCF.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.Properties.Resources.resources
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\DangNhap.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\DangNhap.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_BanHang.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_BanHang.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\Microsoft.Expression.Effects.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\System.Windows.Interactivity.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_ChamCong.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_MatHang.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_ThongKe.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_ChamCong.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_MatHang.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_ThongKe.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoanhThu.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoanhThu.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhanVien.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhanVien.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\CSChinh.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\CSChinh.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_CaiDat.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_DoiMatKhau.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_GuiBaoCao.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\W_DSBan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_CaLam.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_ChucVu.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_TruLuong.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_UngLuong.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_NPhatTrien.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_ThongTin.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_CaiDat.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_DoiMatKhau.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_GuiBaoCao.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\W_DSBan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_CaLam.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_ChucVu.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_TruLuong.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_UngLuong.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_NPhatTrien.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_ThongTin.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Chuyen.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Gop.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Chuyen.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Gop.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_ThanhToan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_ThanhToan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\Wp_ThemBan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\Wp_ThemBan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\InforCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\InforCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_PThuChi.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_PThuChi.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhaCC.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_TinhLuong.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhaCC.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_TinhLuong.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_PhieuNhap.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_AddPNhap.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_EditPNhap.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_PhieuNhap.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_AddPNhap.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_EditPNhap.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_HoaDon.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_HoaDon.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_BaoCao.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_TaiKhoan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_BaoCao.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_TaiKhoan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_AddMH.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_EditMH.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_AddNCC.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_EditNCC.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_AddNV.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_DoiCV.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_EditNV.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_SapLich.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_AddTaiKhoan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_EditTaiKhoan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_AddMH.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_EditMH.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_AddNCC.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_EditNCC.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_AddNV.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_DoiCV.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_EditNV.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_SapLich.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_AddTaiKhoan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_EditTaiKhoan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoUong.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoUong.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCa.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCV.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCa.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCV.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCa.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCV.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCa.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCV.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\DataCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\DataCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_HuongDan.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_HuongDan.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\PrintCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\PrintCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\Cafe.ldf
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\Cafe.mdf
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\SgCafe.exe.config
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\SgCafe.exe
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\SgCafe.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe_MarkupCompile.cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe_MarkupCompile.lref
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.g.resources
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.exe
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\SgCafe.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\ThuChi\W_AddPhieu.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\ThuChi\W_AddPhieu.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\HelpCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\bin\Debug\HelpCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_Hello.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\MainPanel\P_Hello.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\SgCafe\obj\Debug\Resource.baml
+C:\Users\Sboy16\Desktop\Bao Cao Cafe\Mã nguồn\Mã nguồn phần mềm\SgCafe\SgCafe\bin\Debug\SgCafe.exe.config
+C:\Users\Sboy16\Desktop\Bao Cao Cafe\Mã nguồn\Mã nguồn phần mềm\SgCafe\SgCafe\obj\Debug\SgCafe.exe
+C:\Users\Sboy16\Desktop\Bao Cao Cafe\Mã nguồn\Mã nguồn phần mềm\SgCafe\SgCafe\obj\Debug\SgCafe.pdb
+D:\SgCafe\SgCafe\bin\Debug\SgCafe.exe.config
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.exe
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.pdb
+D:\SgCafe\SgCafe\bin\Debug\Cafe.ldf
+D:\SgCafe\SgCafe\bin\Debug\Cafe.mdf
+D:\SgCafe\SgCafe\bin\Debug\SgCafe.exe
+D:\SgCafe\SgCafe\bin\Debug\SgCafe.pdb
+D:\SgCafe\SgCafe\bin\Debug\DataCf.dll
+D:\SgCafe\SgCafe\bin\Debug\HelpCf.dll
+D:\SgCafe\SgCafe\bin\Debug\InforCf.dll
+D:\SgCafe\SgCafe\bin\Debug\Microsoft.Expression.Effects.dll
+D:\SgCafe\SgCafe\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\SgCafe\SgCafe\bin\Debug\PrintCf.dll
+D:\SgCafe\SgCafe\bin\Debug\StyleCF.dll
+D:\SgCafe\SgCafe\bin\Debug\System.Windows.Interactivity.dll
+D:\SgCafe\SgCafe\bin\Debug\DataCf.pdb
+D:\SgCafe\SgCafe\bin\Debug\HelpCf.pdb
+D:\SgCafe\SgCafe\bin\Debug\InforCf.pdb
+D:\SgCafe\SgCafe\bin\Debug\PrintCf.pdb
+D:\SgCafe\SgCafe\bin\Debug\StyleCF.pdb
+D:\SgCafe\SgCafe\bin\Debug\de\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\es\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\fr\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\it\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ja\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ko\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ru\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hans\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hant\Microsoft.Expression.Effects.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.csprojResolveAssemblyReference.cache
+D:\SgCafe\SgCafe\obj\Debug\DangNhap.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Chuyen.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Gop.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_ThanhToan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_AddMH.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_EditMH.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_AddNCC.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_EditNCC.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_AddNV.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_DoiCV.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_EditNV.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_SapLich.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoanhThu.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoUong.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_BanHang.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_BaoCao.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_ChamCong.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_Hello.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_HoaDon.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_MatHang.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhaCC.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhanVien.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_PhieuNhap.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_PThuChi.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_TaiKhoan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_ThongKe.g.cs
+D:\SgCafe\SgCafe\obj\Debug\CSChinh.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_TinhLuong.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_AddTaiKhoan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_EditTaiKhoan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\ThuChi\W_AddPhieu.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_CaiDat.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_DoiMatKhau.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_GuiBaoCao.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\W_DSBan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\Wp_ThemBan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCa.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCV.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCa.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCV.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_CaLam.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_ChucVu.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_TruLuong.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_UngLuong.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_HuongDan.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_NPhatTrien.g.cs
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_ThongTin.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_AddPNhap.g.cs
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_EditPNhap.g.cs
+D:\SgCafe\SgCafe\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\SgCafe\SgCafe\obj\Debug\SgCafe_MarkupCompile.cache
+D:\SgCafe\SgCafe\obj\Debug\SgCafe_MarkupCompile.lref
+D:\SgCafe\SgCafe\obj\Debug\DangNhap.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Chuyen.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_Gop.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\BanHang\W_ThanhToan.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_AddMH.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\MatHang\W_EditMH.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_AddNCC.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhaCC\W_EditNCC.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_AddNV.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_DoiCV.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_EditNV.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhanVien\W_SapLich.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoanhThu.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\PThongKe\P_DoUong.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_BanHang.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_BaoCao.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_ChamCong.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_Hello.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_HoaDon.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_MatHang.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhaCC.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_NhanVien.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_PhieuNhap.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_PThuChi.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_TaiKhoan.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_ThongKe.baml
+D:\SgCafe\SgCafe\obj\Debug\CSChinh.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\P_TinhLuong.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_AddTaiKhoan.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\Taikhoan\W_EditTaiKhoan.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\ThuChi\W_AddPhieu.baml
+D:\SgCafe\SgCafe\obj\Debug\Resource.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_CaiDat.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_DoiMatKhau.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\HeThong\W_GuiBaoCao.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\W_DSBan.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\HoatDong\Wp_ThemBan.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCa.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_SuaCV.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCa.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\Wp_ThemCV.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_CaLam.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_ChucVu.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_TruLuong.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\NhanSu\W_UngLuong.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_HuongDan.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_NPhatTrien.baml
+D:\SgCafe\SgCafe\obj\Debug\Windows\TroGiup\W_ThongTin.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_AddPNhap.baml
+D:\SgCafe\SgCafe\obj\Debug\MainPanel\NhapHang\W_EditPNhap.baml
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.g.resources
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.Properties.Resources.resources
+D:\SgCafe\SgCafe\obj\Debug\SgCafe.csproj.GenerateResource.Cache
+C:\SgCafe\SgCafe\bin\Debug\SgCafe.exe.config
+C:\SgCafe\SgCafe\obj\Debug\SgCafe.exe
+C:\SgCafe\SgCafe\obj\Debug\SgCafe.pdb

@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89F7DD4E-434E-4F68-875E-73AD4E186BFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StyleCF</RootNamespace>
+    <AssemblyName>StyleCF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Control\FontHeight.cs" />
+    <Compile Include="Control\FontList.cs" />
+    <Compile Include="Control\MenItem.xaml.cs">
+      <DependentUpon>MenItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\RTFB.xaml.cs">
+      <DependentUpon>RTFB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Control\TimeCf.xaml.cs">
+      <DependentUpon>TimeCf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="IconUtilities.cs" />
+    <Compile Include="MessageBoxCF.cs" />
+    <Compile Include="MSGB.xaml.cs">
+      <DependentUpon>MSGB.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dictionary_ListView.xaml.cs">
+      <DependentUpon>Dictionary_ListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dictionary_Time.xaml.cs">
+      <DependentUpon>Dictionary_Time.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsResizer.cs" />
+    <Page Include="Color.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\MenItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\RTFB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Control\TimeCf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MSGB.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PageStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_CheckBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_ContextMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_DataGrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_DataPicker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_List.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_Menu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dictionary_Button.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dictionary_Print.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_ScrollBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_TabControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dictionary_TextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dictionary_Time.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_ToolBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Dictionary_TreeView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ThemeStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="ThemeStyle.xaml.cs">
+      <DependentUpon>ThemeStyle.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Icon\menuntg\Thumbs.db" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Control\Image\Bold.png" />
+    <Resource Include="Control\Image\Copy.png" />
+    <Resource Include="Control\Image\Cut.png" />
+    <Resource Include="Control\Image\Font.png" />
+    <Resource Include="Control\Image\Italic.png" />
+    <Resource Include="Control\Image\Paste.png" />
+    <Resource Include="Control\Image\Redo.png" />
+    <Resource Include="Control\Image\StrikeThrough.png" />
+    <Resource Include="Control\Image\TextCenter.png" />
+    <Resource Include="Control\Image\TextCenterInFormHorizontal_exp.png" />
+    <Resource Include="Control\Image\TextElement.png" />
+    <Resource Include="Control\Image\TextJustify.png" />
+    <Resource Include="Control\Image\TextLeftJustify.png" />
+    <Resource Include="Control\Image\TextLineHeight.png" />
+    <Resource Include="Control\Image\TextRightJustify.png" />
+    <Resource Include="Control\Image\TextSpaceAfter.png" />
+    <Resource Include="Control\Image\TextSpaceBefore.png" />
+    <Resource Include="Control\Image\Underline.png" />
+    <Resource Include="Control\Image\Undo.png" />
+    <Resource Include="Icon\close.ico" />
+    <Resource Include="Icon\coffee3.ico" />
+    <Resource Include="Icon\icon.ico" />
+    <Resource Include="Icon\Icon.png" />
+    <Resource Include="Icon\max.ico" />
+    <Resource Include="Icon\menuntg\banhag.png" />
+    <Resource Include="Icon\menuntg\beer.png" />
+    <Resource Include="Icon\menuntg\box.png" />
+    <Resource Include="Icon\menuntg\cafe.png" />
+    <Resource Include="Icon\menuntg\caidat.png" />
+    <Resource Include="Icon\menuntg\cam.png" />
+    <Resource Include="Icon\menuntg\camera.png" />
+    <Resource Include="Icon\menuntg\chat.png" />
+    <Resource Include="Icon\menuntg\coffee.png" />
+    <Resource Include="Icon\menuntg\control.png" />
+    <Resource Include="Icon\menuntg\cup.png" />
+    <Resource Include="Icon\menuntg\document.png" />
+    <Resource Include="Icon\menuntg\donut.png" />
+    <Resource Include="Icon\menuntg\folder.png" />
+    <Resource Include="Icon\menuntg\ghe.png" />
+    <Resource Include="Icon\menuntg\gun.png" />
+    <Resource Include="Icon\menuntg\headphones.png" />
+    <Resource Include="Icon\menuntg\heart.png" />
+    <Resource Include="Icon\menuntg\imac.png" />
+    <Resource Include="Icon\menuntg\lyruou.png" />
+    <Resource Include="Icon\menuntg\mail.png" />
+    <Resource Include="Icon\menuntg\man.png" />
+    <Resource Include="Icon\menuntg\mobile.png" />
+    <Resource Include="Icon\menuntg\moruou.png" />
+    <Resource Include="Icon\menuntg\music.png" />
+    <Resource Include="Icon\menuntg\nhac.png" />
+    <Resource Include="Icon\menuntg\nhaphang.png" />
+    <Resource Include="Icon\menuntg\nohad.png" />
+    <Resource Include="Icon\menuntg\notebook.png" />
+    <Resource Include="Icon\menuntg\pache.png" />
+    <Resource Include="Icon\menuntg\planet.png" />
+    <Resource Include="Icon\menuntg\sach.png" />
+    <Resource Include="Icon\menuntg\shop.png" />
+    <Resource Include="Icon\menuntg\tools.png" />
+    <Resource Include="Icon\menuntg\trash.png" />
+    <Resource Include="Icon\menuntg\woman.png" />
+    <Resource Include="Icon\min.ico" />
+    <Resource Include="Icon\S.png" />
+    <Resource Include="Icon\timthumb %281%29.jpg" />
+    <Resource Include="Icon\Vote.ico" />
+    <Resource Include="Icon\White-Background-9B1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Control\Image\AlignCenter.png" />
+    <Resource Include="Control\Image\AlignLeft.png" />
+    <Resource Include="Control\Image\AlignRight.png" />
+    <Resource Include="Control\Image\Backcolor.png" />
+    <Resource Include="Control\Image\BulletList.png" />
+    <Resource Include="Control\Image\Indent.png" />
+    <Resource Include="Control\Image\IndentRemove.png" />
+    <Resource Include="Control\Image\NumbersList.png" />
+    <Resource Include="Control\Image\Open-48x48.png" />
+    <Resource Include="Control\Image\Open.png" />
+    <Resource Include="Control\Image\Print.png" />
+    <Resource Include="Control\Image\Strikeout.png" />
+    <Resource Include="Control\Image\Subscript.png" />
+    <Resource Include="Control\Image\Superscript.png" />
+    <Resource Include="Control\Image\Textcolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\clothes and accesories - hockey mask.png" />
+    <Resource Include="Icon\menuntg\furniture - drawer.png" />
+    <Resource Include="Icon\menuntg\furniture - wood tv furniture.png" />
+    <Resource Include="Icon\menuntg\technology - amazon kindle paperwhite.png" />
+    <Resource Include="Icon\menuntg\technology - apple imac 2015 model.png" />
+    <Resource Include="Icon\menuntg\technology - gopro hero 3.png" />
+    <Resource Include="Icon\menuntg\webdesign - 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\LoginPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\IconLyCF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\NenPhatTrien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\NenChinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\BanHang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\HoaDon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\NhapHang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\NhaCC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\MatHang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\ThuChi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\TaiKhoan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\ChamCong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\TinhLuong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\UngLuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\TruLuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\NhanVien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\menuntg\ThongKe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icon\Table.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

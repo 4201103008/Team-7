@@ -1,0 +1,156 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:StyleCF.Resources">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/StyleCF;component/Color.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="AnimatedSwitch" TargetType="{x:Type ToggleButton}">
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="Background" Value="#FAFAFB" />
+        <Setter Property="BorderBrush" Value="#EAEAEB" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToggleButton">
+                    <Viewbox Stretch="Uniform">
+                        <Canvas Name="Layer_1" Width="20" Height="20" Canvas.Left="10" Canvas.Top="0">
+                            <Ellipse  Canvas.Left="0" Width="20" Height="20" Fill="{TemplateBinding Background}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="0.5"/>
+                            <Ellipse  Canvas.Left="15" Width="20" Height="20" Fill="{TemplateBinding Background}" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="0.5"/>
+                            <Border Canvas.Left="10" Width="15" Height="20" Name="rect416927" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="0,0.5,0,0.5"/>
+                            <Ellipse x:Name="ellipse"  Canvas.Left="0" Width="20" Height="20" Fill="White" Stroke="{TemplateBinding BorderBrush}" StrokeThickness="0.3">
+                                <Ellipse.RenderTransform>
+                                    <TranslateTransform X="0" Y="0" />
+                                </Ellipse.RenderTransform>
+                                <Ellipse.BitmapEffect>
+                                    <DropShadowBitmapEffect Softness="0.1" ShadowDepth="0.7" Direction="270" Color="#BBBBBB"/>
+                                </Ellipse.BitmapEffect>
+                            </Ellipse>
+                        </Canvas>
+                    </Viewbox>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="True" >
+                            <Trigger.EnterActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetProperty="Background.Color" To="#69CE98" Duration="0:0:0.2" />
+                                        <ColorAnimation Storyboard.TargetProperty="BorderBrush.Color" To="#3CB978" Duration="0:0:0.2" />
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)" Storyboard.TargetName="ellipse">
+                                            <SplineDoubleKeyFrame KeyTime="0" Value="0"/>
+                                            <SplineDoubleKeyFrame KeyTime="0:0:0.4" Value="15" KeySpline="0, 1, 0.6, 1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.EnterActions>
+                            <Trigger.ExitActions>
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetProperty="Background.Color" To="#FAFAFB" Duration="0:0:0.2" />
+                                        <ColorAnimation Storyboard.TargetProperty="BorderBrush.Color" To="#EAEAEB" Duration="0:0:0.2" />
+                                        <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(Ellipse.RenderTransform).(TranslateTransform.X)" Storyboard.TargetName="ellipse">
+                                            <SplineDoubleKeyFrame KeyTime="0" Value="15"/>
+                                            <SplineDoubleKeyFrame KeyTime="0:0:0.3" Value="0" KeySpline="0, 0.5, 0.5, 1"/>
+                                        </DoubleAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </Trigger.ExitActions>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="bt_NutM" TargetType="{x:Type Button}">
+        <Setter Property="Background" Value="{x:Null}"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{x:Null}" CornerRadius="2" Opacity="0.7">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="bt_NutC" TargetType="{x:Type Button}" BasedOn="{StaticResource bt_NutM}">
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FF86868D"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+        <Setter Property="MinHeight" Value="23"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="bd" Background="White" CornerRadius="10" Opacity="0.9">
+                        <TextBlock x:Name="con" Text="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#FF87C5A9"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="bd" Property="Background" Value="{StaticResource clEnibFalse1}"/>
+                            <Setter Property="Foreground" Value="{StaticResource clEnibFalse}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="btChamCong" TargetType="{x:Type Button}">
+        <Setter Property="MinHeight" Value="23"/>
+        <Setter Property="MinWidth" Value="100"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border x:Name="bd" Background="White" CornerRadius="10" Opacity="0.9">
+                        <Grid>
+                            <Ellipse Fill="{TemplateBinding Background}" HorizontalAlignment="Left" Height="20" Width="20" Margin="4,0,0,0">
+                                <Ellipse.Stroke>
+                                    <SolidColorBrush Color="#FFF0E4E4" Opacity="0.5"/>
+                                </Ellipse.Stroke>
+                            </Ellipse>
+                            <TextBlock x:Name="con" Text="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#FF87C5A9"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="bd" Property="Background" Value="{StaticResource clEnibFalse1}"/>
+                            <Setter Property="Foreground" Value="{StaticResource clEnibFalse}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="buttonrtb" TargetType="{x:Type Button}">
+        <Setter Property="MinHeight" Value="23"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="#FF4B4955" CornerRadius="5" Opacity="1" BorderThickness="1">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Background">
+                                <Setter.Value>
+                                    <SolidColorBrush Color="#FFB0C3DA" Opacity="0.8"/>
+                                </Setter.Value>
+                            </Setter>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

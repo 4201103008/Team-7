@@ -1,0 +1,83 @@
+﻿<Page x:Class="SgCafe.MainPanel.P_PThuChi"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SgCafe.MainPanel"
+      mc:Ignorable="d"
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="P_PThuChi" Loaded="Page_Loaded">
+    <Page.Resources>
+        <ResourceDictionary>
+            <local:cvNhanVien x:Key="converNhanVien"/>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0"/> <!--30-->
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="32"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <!--<Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <TextBlock HorizontalAlignment="Left" Margin="0,3,0,0" TextWrapping="Wrap" Text="Từ Ngày" VerticalAlignment="Top" Width="60"/>
+            <DatePicker x:Name="TuNgay" HorizontalAlignment="Left" Margin="60,0,0,0" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="170,3,0,0" TextWrapping="Wrap" Text="Đến Ngày" VerticalAlignment="Top" Width="60"/>
+            <DatePicker x:Name="DenNgay" HorizontalAlignment="Left" Margin="230,0,0,0" VerticalAlignment="Top" IsTodayHighlighted="True"/>
+        </Grid>-->
+        <Border  Grid.Row="1" Grid.Column="0" CornerRadius="5" Margin="0,0,5,0">
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.5"/>
+            </Border.Background>
+            <TextBlock Margin="10,7,10,7" TextWrapping="Wrap" TextAlignment="Center" Text="Danh Sách Phiếu Thu"/>
+        </Border>
+        <Border  Grid.Row="1" Grid.Column="1" CornerRadius="5" Margin="5,0,0,0">
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.5"/>
+            </Border.Background>
+            <TextBlock Margin="10,7,10,7" TextWrapping="Wrap" TextAlignment="Center" Text="Danh Sách Phiếu Chi"/>
+        </Border>
+        <Grid  Grid.Row="2" Grid.Column="0">
+            <Button x:Name="themT" Content="Thêm Mới" HorizontalAlignment="Left" Margin="0,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="themT_Click"/>
+            <Button x:Name="xoaT" Content="Xóa" IsEnabled="False" HorizontalAlignment="Left" Margin="90,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="xoaT_Click"/>
+            <Button x:Name="inT" Content="In Lại" IsEnabled="False" HorizontalAlignment="Left" Margin="180,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="inT_Click"/>
+        </Grid>
+        <Grid  Grid.Row="2" Grid.Column="1">
+            <Button x:Name="themC" Content="Thêm Mới" HorizontalAlignment="Left" Margin="5,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="themC_Click"/>
+            <Button x:Name="xoaC" Content="Xóa" IsEnabled="False" HorizontalAlignment="Left" Margin="95,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="xoaC_Click"/>
+            <Button x:Name="inC" Content="In Lại" IsEnabled="False" HorizontalAlignment="Left" Margin="185,4,0,0" Width="75" Height="23" VerticalAlignment="Top" Click="inC_Click"/>
+        </Grid>
+        <ListView x:Name="dmThu" ItemsSource="{Binding}" Margin="0,0,5,0" Grid.Row="3" Grid.Column="0" SelectionChanged="dmThu_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Số phiếu" Width="80" DisplayMemberBinding="{Binding SoPhieu, StringFormat=0000000000}"/>
+                    <GridViewColumn Header="Ngày" Width="80" DisplayMemberBinding="{Binding Ngay, StringFormat=dd/MM/yyyy}"/>
+                    <GridViewColumn Header="Lý do thu" Width="100" DisplayMemberBinding="{Binding LyDo}"/>
+                    <GridViewColumn Header="Số tiền" Width="100" DisplayMemberBinding="{Binding SoTien}"/>
+                    <GridViewColumn Header="Nhân viên" Width="150" DisplayMemberBinding="{Binding MaNV, Converter={StaticResource converNhanVien}}"/>
+                    <GridViewColumn Header="Người nộp" Width="150" DisplayMemberBinding="{Binding NguoiNhan}"/>
+                    <GridViewColumn Header="Địa chỉ" Width="150" DisplayMemberBinding="{Binding NguoiNhan}"/>
+                    <GridViewColumn Header="Diễn giải" Width="100" DisplayMemberBinding="{Binding NoiDung}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="dmChi" ItemsSource="{Binding}" Margin="5,0,0,0" Grid.Row="3" Grid.Column="1" SelectionChanged="dmChi_SelectionChanged">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Số phiếu" Width="80" DisplayMemberBinding="{Binding SoPhieu, StringFormat=0000000000}"/>
+                    <GridViewColumn Header="Ngày" Width="80" DisplayMemberBinding="{Binding Ngay, StringFormat=dd/MM/yyyy}"/>
+                    <GridViewColumn Header="Lý do chi" Width="100" DisplayMemberBinding="{Binding LyDo}"/>
+                    <GridViewColumn Header="Số tiền" Width="100" DisplayMemberBinding="{Binding SoTien}"/>
+                    <GridViewColumn Header="Nhân viên" Width="150" DisplayMemberBinding="{Binding MaNV, Converter={StaticResource converNhanVien}}"/>
+                    <GridViewColumn Header="Người nhận" Width="150" DisplayMemberBinding="{Binding NguoiNhan}"/>
+                    <GridViewColumn Header="Địa chỉ" Width="150" DisplayMemberBinding="{Binding NguoiNhan}"/>
+                    <GridViewColumn Header="Diễn giải" Width="100" DisplayMemberBinding="{Binding NoiDung}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>

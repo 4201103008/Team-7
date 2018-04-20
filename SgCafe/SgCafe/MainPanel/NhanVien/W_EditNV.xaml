@@ -1,0 +1,72 @@
+﻿<Window x:Class="SgCafe.MainPanel.NhanVien.W_EditNV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SgCafe.MainPanel.NhanVien"
+        mc:Ignorable="d" Style="{StaticResource wd_ScWindows}"
+        Title="Sửa thông tin nhân viên" Height="400" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="55"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Margin="-1,0,5,5" CornerRadius="0,0,5,0" Background="{DynamicResource clBack1WP}">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="10,13,0,0" TextWrapping="Wrap" Text="Mã NV:" VerticalAlignment="Top"/>
+                <TextBox x:Name="maNV" Height="23" Margin="70,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" Text="Tên NV:" VerticalAlignment="Top"/>
+                <TextBox x:Name="tenNV" Height="23" Margin="70,50,10,0" TextWrapping="Wrap" VerticalAlignment="Top" KeyUp="tenNV_KeyUp"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="Giới tính:" VerticalAlignment="Top"/>
+                <ComboBox x:Name="gioitinh" Margin="70,90,10,0" VerticalAlignment="Top">
+                    <ComboBoxItem Content="Nam"/>
+                    <ComboBoxItem Content="Nữ"/>
+                </ComboBox>
+                <TextBlock HorizontalAlignment="Left" Margin="10,133,0,0" TextWrapping="Wrap" Text="Lương ca:" VerticalAlignment="Top"/>
+                <TextBox x:Name="luong" Height="23" MaxLength="18" Margin="70,130,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="0" PreviewTextInput="Text_PreviewTextInput" KeyUp="luong_KeyUp" GotKeyboardFocus="luong_GotKeyboardFocus" LostKeyboardFocus="luong_LostKeyboardFocus"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,173,0,0" TextWrapping="Wrap" Text="Ngày vào làm:" VerticalAlignment="Top"/>
+                <TextBox x:Name="ngayvl" Height="23" Margin="100,170,10,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,213,0,0" TextWrapping="Wrap" Text="Ghi chú:" VerticalAlignment="Top"/>
+                <RichTextBox x:Name="ghiChu" Margin="70,210,10,10"/>
+            </Grid>
+        </Border>
+        <Border Grid.Column="1" Margin="5,0,-1,5" CornerRadius="0,0,0,5" Background="{DynamicResource clBack1WP}">
+            <Grid>
+                <TextBlock HorizontalAlignment="Left" Margin="10,13,0,0" TextWrapping="Wrap" Text="Chúc vụ:" VerticalAlignment="Top"/>
+                <ComboBox x:Name="chucVu" Margin="90,10,10,0" VerticalAlignment="Top" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}" DisplayMemberPath="TenCV" SelectionChanged="chucVu_SelectionChanged"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,53,0,0" TextWrapping="Wrap" Text="Địa chỉ:" VerticalAlignment="Top"/>
+                <TextBox x:Name="diaChi" Height="23" Margin="90,50,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Left" Margin="10,93,0,0" TextWrapping="Wrap" Text="Số điện thoại:" VerticalAlignment="Top"/>
+                <TextBox x:Name="sdt" Height="23" MaxLength="11" Margin="90,90,10,0" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="Text_PreviewTextInput"/>
+                <DataGrid x:Name="dataLich" ScrollViewer.HorizontalScrollBarVisibility="Disabled" CanUserReorderColumns="False" CanUserResizeRows="False" RowHeaderWidth="0" AutoGenerateColumns="False" Margin="10,130,10,10" CanUserAddRows="False" CanUserDeleteRows="False" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}" d:LayoutOverrides="Height">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn x:Name="tenca" Header="Ca làm" Width="112">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Margin="2,0,0,0" Text="{Binding TenCa}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridCheckBoxColumn Header="Cn" Binding="{Binding CN}"/>
+                        <DataGridCheckBoxColumn Header="T2" Binding="{Binding T2}"/>
+                        <DataGridCheckBoxColumn Header="T3" Binding="{Binding T3}"/>
+                        <DataGridCheckBoxColumn Header="T4" Binding="{Binding T4}"/>
+                        <DataGridCheckBoxColumn Header="T5" Binding="{Binding T5}"/>
+                        <DataGridCheckBoxColumn Header="T6" Binding="{Binding T6}"/>
+                        <DataGridCheckBoxColumn Header="T7" Binding="{Binding T7}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </Border>
+        <Border Height="50" VerticalAlignment="Bottom" CornerRadius="5" Margin="-1,0,-1,-3" Grid.Row="1" Grid.ColumnSpan="2" Background="{DynamicResource clBack2WP}">
+            <Grid>
+                <Button x:Name="BtOK" Content="Sửa" Margin="0,13,120,13" HorizontalAlignment="Right" Width="100" Click="BtOK_Click"/>
+                <Button x:Name="BtHuy" Content="Hủy" Margin="0,13,10,13" HorizontalAlignment="Right" Width="100" Click="BtHuy_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
