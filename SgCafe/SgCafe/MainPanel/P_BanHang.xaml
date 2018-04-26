@@ -1,0 +1,181 @@
+﻿<Page x:Class="SgCafe.MainPanel.P_BanHang"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SgCafe.MainPanel"
+      xmlns:Control="clr-namespace:StyleCF.Control;assembly=StyleCF"
+      mc:Ignorable="d"
+      Title="P_BanHang" 
+      d:DesignHeight="500" d:DesignWidth="900">
+    <Page.Resources>
+        <ResourceDictionary>
+            <local:cvListMH x:Key="converListMH"/>
+            <local:cvBatC x:Key="converDCHD"/>
+            <local:cvGiXo x:Key="convertSelect"/>
+            <local:cvMuCPThem x:Key="mutilconVThem"/>
+            <local:cvsGiamGia x:Key="converGiamGia"/>
+            <local:cvsThue x:Key="converThue"/>
+            <local:cvTime x:Key="convertTimeNow"/>
+            <local:cvTimeM x:Key="converMutiTime"/>
+            <local:Ticker x:Key="Ticker"/>
+            <local:cvctThanhToan x:Key="cvCoTheThanhToan"/>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid Margin="5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="280"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <ComboBox x:Name="locBan" HorizontalAlignment="Left" Width="147" IsReadOnly="True" VerticalAlignment="Top" Height="23">
+                    <ComboBoxItem Content="Tất cả" IsSelected="True"/>
+                    <ComboBoxItem Content="Bàn trống"/>
+                    <ComboBoxItem Content="Đang dùng"/>
+                </ComboBox>
+                <Button x:Name="refresh" Content="Refresh" Margin="168,0,0,7" d:LayoutOverrides="Height" HorizontalAlignment="Left" Width="94" Click="refresh_Click"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <ListBox x:Name="listban" Margin="0" DisplayMemberPath="TenBan" SelectionChanged="listban_SelectionChanged" ContextMenuOpening="listban_ContextMenuOpening">
+                    <ListBox.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem x:Name="moBan" Header="Mở bàn" Click="moBan_Click"/>
+                            <MenuItem x:Name="dongBan" Header="Đóng bàn" Click="thanhToan_Click"/>
+                            <MenuItem x:Name="chuyenBan" Header="Chuyển bàn" Click="buttonChuyen_Click"/>
+                            <MenuItem x:Name="gopBan" Header="Gộp bàn" Click="buttonGop_Click"/>
+                        </ContextMenu>
+                    </ListBox.ContextMenu>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}" BasedOn="{StaticResource DsBan}">
+                            <EventSetter Event="MouseDoubleClick" Handler="BanItem_MouseDoubleClick"/>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                </ListBox>
+            </Grid>
+        </Grid>
+        <Grid x:Name="grHoaDon" DataContext="{Binding}" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="115"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock Text="Số hóa đơn" Margin="10,3,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <TextBlock Text="Bàn" Margin="10,35,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <TextBlock Text="Bắt đầu" HorizontalAlignment="Left" Margin="170,35,0,0" VerticalAlignment="Top"/>
+                <TextBlock Text="Kết thúc" HorizontalAlignment="Left" Margin="170,65,0,0" VerticalAlignment="Top"/>
+                <TextBlock Text="Ngày" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="soHoaDon" Height="23" Margin="103,0,0,0" TextWrapping="Wrap" Text="{Binding SoHD, StringFormat=000000000000000}" VerticalAlignment="Top" IsReadOnly="True"/>
+                <TextBox x:Name="tenBan" Height="23" Margin="53,32,0,0" TextWrapping="Wrap" Text="{Binding TenBan}" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="112"/>
+                <TextBox x:Name="ngay" Height="23" VerticalScrollBarVisibility="Disabled" Margin="53,62,0,0" TextWrapping="Wrap" Text="{Binding Ngay}" VerticalAlignment="Top" IsReadOnly="True" HorizontalAlignment="Left" Width="112"/>
+                <Control:TimeCf x:Name="batdau" SelectedTime="{Binding GMo}" IsEnabled="True" IsReadOnly="True" Margin="226,32,0,0" VerticalAlignment="Top" Height="23"/>
+                <Control:TimeCf x:Name="ketthuc" IsEnabled="True" IsReadOnly="True" Margin="226,62,0,0" VerticalAlignment="Top" Height="23">
+                    <Control:TimeCf.SelectedTime>
+                        <MultiBinding Converter="{StaticResource converMutiTime}">
+                            <Binding/>
+                            <Binding Source="{StaticResource Ticker}" Path="Now"/>
+                        </MultiBinding>
+                    </Control:TimeCf.SelectedTime>
+                </Control:TimeCf>
+                <TextBlock x:Name="tenban" HorizontalAlignment="Left" Margin="40,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="70"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <ListView x:Name="listMHinHD" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ItemsSource="{Binding SoHD, Converter={StaticResource converListMH}, UpdateSourceTrigger=PropertyChanged}" Margin="10">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Mặt hàng" Width="130" DisplayMemberBinding="{Binding TenHang}"/>
+                                <GridViewColumn Header="SL" Width="40" DisplayMemberBinding="{Binding SoLuong}"/>
+                                <GridViewColumn Header="ĐVT" Width="60" DisplayMemberBinding="{Binding DonViTinh}"/>
+                                <GridViewColumn Header="Giá bán"  Width="80" DisplayMemberBinding="{Binding GiaBan, StringFormat=0.00}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <ComboBox x:Name="comboBSoLuong" Margin="0,10,0,0" VerticalAlignment="Top" IsEditable="True" SelectedIndex="0" PreviewTextInput="Text_PreviewTextInput">
+                        <ComboBoxItem Content="1"/>
+                        <ComboBoxItem Content="2"/>
+                        <ComboBoxItem Content="3"/>
+                        <ComboBoxItem Content="4"/>
+                        <ComboBoxItem Content="5"/>
+                        <ComboBoxItem Content="6"/>
+                        <ComboBoxItem Content="7"/>
+                        <ComboBoxItem Content="8"/>
+                        <ComboBoxItem Content="9"/>
+                        <ComboBoxItem Content="10"/>
+                        <ComboBoxItem Content="15"/>
+                        <ComboBoxItem Content="20"/>
+                    </ComboBox>
+                    <Button x:Name="buttonThem" Content="&lt;&lt; Thêm"  Margin="0,70,0,0" VerticalAlignment="Top" Click="buttonThem_Click">
+                        <Button.IsEnabled>
+                            <MultiBinding Converter="{StaticResource mutilconVThem}">
+                                <Binding/>
+                                <Binding ElementName="listMatHang" Path="SelectedIndex"/>
+                            </MultiBinding>
+                        </Button.IsEnabled>
+                    </Button>
+                    <Button x:Name="buttonGiam" IsEnabled="{Binding SelectedIndex, Converter={StaticResource convertSelect}, ElementName=listMHinHD}" Content="Giảm &gt;&gt;" Margin="0,110,0,0" VerticalAlignment="Top" Click="buttonGiam_Click"/>
+                    <Button x:Name="buttonXoa" IsEnabled="{Binding SelectedIndex, Converter={StaticResource convertSelect}, ElementName=listMHinHD}" Content="Xóa" Margin="0,150,0,0" VerticalAlignment="Top" Click="buttonXoa_Click"/>
+                    <Button x:Name="buttonChuyen" IsEnabled="{Binding Converter={StaticResource converDCHD}}" Content="Chuyển" Margin="0,0,0,50" VerticalAlignment="Bottom" Click="buttonChuyen_Click"/>
+                    <Button x:Name="buttonGop" IsEnabled="{Binding Converter={StaticResource converDCHD}}" Content="Gộp" Margin="0,0,0,10" VerticalAlignment="Bottom" Click="buttonGop_Click"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2">
+                <TextBlock Text="Tiền nước" HorizontalAlignment="Left" Margin="10,14,0,0" VerticalAlignment="Top"/>
+                <TextBlock Text="Thuế VAT" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top"/>
+                <TextBlock Text="Giảm giá" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top"/>
+                <TextBlock Text="Tổng cộng" HorizontalAlignment="Left" Margin="10,95,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="tienNuoc" Height="23" Margin="98,10,110,0" TextWrapping="Wrap" Text="{Binding TienNuoc, StringFormat=0.00}" VerticalAlignment="Top" IsReadOnly="True"/>
+                <TextBox x:Name="giamGia" MaxLength="2" Text="{Binding GiamGia}" Margin="98,38,250,0" TextWrapping="Wrap" Height="23" VerticalAlignment="Top" PreviewTextInput="Text_PreviewTextInput" GotKeyboardFocus="giamGia_GotKeyboardFocus" LostKeyboardFocus="giamGia_LostKeyboardFocus"/>
+                <TextBlock Text="%" HorizontalAlignment="Right" Margin="0,68,238,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="thue" Text="{Binding VAT}" Height="23" Margin="98,64,250,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True"/>
+                <TextBlock Text="%" HorizontalAlignment="Right" Margin="0,42,238,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="tongTien" Margin="98,90,110,0" TextWrapping="Wrap" Text="{Binding TongTien, StringFormat=0.00}" Height="24" VerticalAlignment="Top" IsReadOnly="True"/>
+                <Button x:Name="thanhToan" Content="Thanh Toán" HorizontalAlignment="Right" Margin="0,10,0,0" Width="90.333" Height="50.96" VerticalAlignment="Top" RenderTransformOrigin="0.504,0.5" Click="thanhToan_Click">
+                    <Button.IsEnabled>
+                        <MultiBinding Converter="{StaticResource cvCoTheThanhToan}">
+                            <Binding/>
+                            <Binding ElementName="tongTien" Path="Text"/>
+                        </MultiBinding>
+                    </Button.IsEnabled>
+                </Button>
+                <Button x:Name="HuyHD" IsEnabled="{Binding Converter={StaticResource converDCHD}}" Content="Hủy Hóa Đơn" HorizontalAlignment="Right" Margin="0,66,0,0" Width="90" Height="49" VerticalAlignment="Top" Click="HuyHD_Click"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="TimKiem" Height="23" Margin="10,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Tìm kiếm" VerticalAlignment="Top" KeyUp="TimKiem_KeyUp" GotKeyboardFocus="TimKiem_GotKeyboardFocus" LostKeyboardFocus="TimKiem_LostKeyboardFocus"/>
+            <ListView x:Name="listMatHang" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Margin="10,33,0,0" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}" Grid.Row="1">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Mặt hàng" Width="125" DisplayMemberBinding="{Binding TenHang}"/>
+                        <GridViewColumn Header="Đơn vị" Width="50" DisplayMemberBinding="{Binding DonViTinh}"/>
+                        <GridViewColumn Header="Giá bán" Width="90" DisplayMemberBinding="{Binding GiaBan, StringFormat=0.00}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView x:Name="listFHD" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}" Margin="10,0,0,10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Số hóa đơn" Width="145" DisplayMemberBinding="{Binding SoHD, StringFormat=000000000000000}"/>
+                        <GridViewColumn Header="Tổng tiền" Width="120" DisplayMemberBinding="{Binding TongTien, StringFormat=0.00}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </Grid>
+</Page>

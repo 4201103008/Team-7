@@ -1,0 +1,30 @@
+﻿<Page x:Class="SgCafe.MainPanel.P_ThongKe"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SgCafe.MainPanel"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="P_ThongKe">
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" CornerRadius="5" Margin="0,0,0,0">
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.5"/>
+            </Border.Background>
+            <TextBlock x:Name="tieude" Margin="10,7,10,7" TextWrapping="Wrap" TextAlignment="Center" Text="Thống Kê"/>
+        </Border>
+        <Frame x:Name="frame" Grid.Row="1" Grid.RowSpan="2" NavigationUIVisibility="Hidden"/>
+        <Grid Grid.Row="1">
+            <ComboBox x:Name="cbSelectLoai" Text="Loại Thống Kê" HorizontalAlignment="Left" Width="130" VerticalAlignment="Top" Margin="0,4,0,0" SelectionChanged="cbSelectLoai_SelectionChanged" SelectedIndex="0">
+                <ComboBoxItem Content="Doanh Thu"/>
+                <ComboBoxItem Content="Mặt Hàng"/>
+            </ComboBox>
+        </Grid>
+    </Grid>
+</Page>
