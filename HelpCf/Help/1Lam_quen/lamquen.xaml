@@ -1,0 +1,225 @@
+﻿<FlowDocument IsOptimalParagraphEnabled="true" IsHyphenationEnabled="true" IsColumnWidthFlexible="false" ColumnWidth="Auto" PagePadding="Auto" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FlowDocument.Resources>
+        <Style x:Key="Normal" TargetType="Paragraph">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextAlignment" Value="Left" />
+            <Setter Property="Language" Value="en-US" />
+            <Setter Property="FontFamily" Value="Times New Roman" />
+        </Style>
+        <Style x:Key="TextBoxFlowDocumentPageViewerStyle" TargetType="{x:Type FlowDocumentPageViewer}">
+            <Setter Property="Background" Value="#00FFFFFF" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="Local" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type FlowDocumentPageViewer}">
+                        <DockPanel Language="en-us" Uid="DockPanel_2" LastChildFill="True">
+                            <Grid HorizontalAlignment="Stretch" Uid="Grid_23" Background="{TemplateBinding Background}" DockPanel.Dock="Bottom">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                            </Grid>
+                            <Border HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Uid="Border_47" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                <AdornerDecorator ClipToBounds="True" Uid="AdornerDecorator_1">
+                                    <DocumentPageView Uid="DocumentPageView_1" KeyboardNavigation.IsTabStop="False" KeyboardNavigation.TabIndex="1" KeyboardNavigation.TabNavigation="Local" DocumentViewerBase.IsMasterPage="True" DocumentPaginator="{x:Null}" PageNumber="0" />
+                                </AdornerDecorator>
+                            </Border>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </FlowDocument.Resources>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Làm quen với Sư phạm Cafe" Foreground="#5B9BD5" FontSize="20" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Đăng nhập" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Giao diện đăng nhập như sau:" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image1.png" Width="270"/>
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Để đăng nhập ta thực hiện:" />
+    </Paragraph>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Chọn tài khoản " />
+                <Run Text="ở ô tài khoản" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhập mật khẩu tương ứng với tài khoản được chọn" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhấn nút 'Đăng nhập'" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Lưu ý:" Foreground="#C00000" />
+        <Run Text=" Mật khẩu mặc định của tài khoản Administrator là 'admin'." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Giao diện tương tác chính" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image2.png" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Thanh trên cùng là thanh menu chính." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Thanh bên trái là menu." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Vùng giữa là vùng làm việc." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Menu chính" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image3.png" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Menu chính là nơi chứa các chức năng  giúp bạn quản lý, truy cập toàn bộ hệ thống phần mềm." />
+        <Run Text=" " />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Menu nhanh" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image4.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Menu nhanh là nơi " Foreground="#000000" />
+        <Run Text="chứa các chức năng thường được sử dụng nhất." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Đổi mật khẩu" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Cho phép chủ nhân tài khoản thay đổi mật khẩu tài khoản của mình." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image5.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Để đổi mật khẩu ta làm như sau:" />
+    </Paragraph>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Chọn 'Đổi mật khẩu' ở menu chính (Hệ Thống &gt; Đổi mật khẩu)." />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Trong cửa sổ đổi mật khẩu, bạn điền mật khẩu cũ, mật khẩu mới và nhập lại mật khẩu mới." />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhấn nút 'Thay đổi'." />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image6.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Bạn cũng có thể hủy quá trình đổi mật khẩu bằng cách nhấn nút 'Hủy'." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Sau khi đổi mật khẩu thành công hệ thống sẽ tự động đăng xuất." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Đăng xuất" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Cho phép chủ tài khoản đăng xuất khỏi hệ thống" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image7.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Chọn 'Đăng xuất' ở menu chính(Hệ Thống &gt; Đăng xuất), sau đó nhấn Yes để xác nhận đăng xuất" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image8.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text="Thoát" Foreground="#5B9BD5" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Cho phép người dùng thoát khỏi ứng dụng." />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image9.png" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="3 cách thoát ứng dụng:" />
+    </Paragraph>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhấn nút 'Thoát' ở menu chính" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhấn tổ hợp phím Ctrl + Q" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <List FontFamily="Times New Roman" FontSize="14">
+        <ListItem>
+            <Paragraph>
+                <Run Text="Nhấn nút X trên thanh tiêu đề" />
+            </Paragraph>
+        </ListItem>
+    </List>
+    <Paragraph Style="{StaticResource Normal}">
+        <Image Source="media/image10.png" Stretch="None" />
+    </Paragraph>
+    <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text="Ứng dụng sẽ xác nhận bạn có muốn thoát không: nhấn Yes để thoát, No để hủy" />
+    </Paragraph>
+</FlowDocument>
+
