@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Trừ lương, ứng lương" />
+        <Run Text="14. Trừ lương, ứng lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -87,7 +87,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng ứng lương để ứng lương" />
+        <Run Text="Người dùng nhấp vào chức năng 'Ứng lương' để ứng lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -95,7 +95,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền thông tin vào rồi chọn ok để ứng lương hoặc chọn hủy" />
+        <Run Text="Người dùng điền thông tin vào rồi chọn 'Ok' để ứng lương hoặc chọn 'Hủy'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -110,7 +110,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng trừ lương để trừ lương" />
+        <Run Text="Người dùng nhấp vào chức năng 'Trừ lương' để trừ lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -118,7 +118,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền thông tin vào rồi chọn ok để trừ lương hoặc chọn hủy" />
+        <Run Text="Người dùng điền thông tin vào rồi chọn 'Ok' để trừ lương hoặc chọn 'Hủy'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

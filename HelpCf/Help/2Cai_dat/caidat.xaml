@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Cài đặt" />
+        <Run Text="2. Cài đặt" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -157,19 +157,19 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Trừ lượng khi nghỉ không phép: dùng để thiết lập mức tiền phạt đối với những nhân viên nghỉ mà không có sự cho phép, bạn có thể thiết lập theo 2 chế độ khác nhau là trừ lương theo phần trăm mức lương của nhân viên đó hoặc trừ bằng một số tiền định trước cho mọi nhân viên." />
+        <Run Text="Trừ lương khi nghỉ không phép: dùng để thiết lập mức tiền phạt đối với những nhân viên nghỉ mà không có sự cho phép, bạn có thể thiết lập theo 2 chế độ khác nhau là trừ lương theo phần trăm mức lương của nhân viên đó hoặc trừ bằng một số tiền định trước cho mọi nhân viên." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Đơn vị tiền tệ, dùng để ghi đơn vị tiền tện cho các hóa đơn, phiếu, …" />
+        <Run Text="Đơn vị tiền tệ, dùng để ghi đơn vị tiền tệ cho các hóa đơn, phiếu…" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Thông báo nếu bật nó hệ thống sẽ thông báo cho bạn các thao thác làm việc có thành công hay thất bại, bạn có thể tắt nó đi nếu thấy nó làm phiền bạn." />
+        <Run Text="Thông báo: nếu bật nó hệ thống sẽ thông báo cho bạn các thao thác làm việc có thành công hay thất bại, bạn có thể tắt nó đi nếu thấy nó làm phiền bạn." />
     </Paragraph>
 </FlowDocument>
 

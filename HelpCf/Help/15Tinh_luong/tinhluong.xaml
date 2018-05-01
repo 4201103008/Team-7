@@ -79,11 +79,11 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Tính lương" />
+        <Run Text="15. Tính lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng tính lương để tính lương" />
+        <Run Text="Người dùng nhấp vào chức năng 'Tính lương' để tính lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

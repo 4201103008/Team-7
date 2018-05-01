@@ -53,8 +53,7 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Chọn tài khoản " />
-                <Run Text="ở ô tài khoản" />
+                <Run Text="Chọn 'Tài khoản' ở ô tài khoản" />
             </Paragraph>
         </ListItem>
     </List>
@@ -68,7 +67,7 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn nút 'Đăng nhập'" />
+                <Run Text="Nhấn nút 'Đăng nhập" />
             </Paragraph>
         </ListItem>
     </List>
@@ -102,8 +101,7 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Menu chính là nơi chứa các chức năng  giúp bạn quản lý, truy cập toàn bộ hệ thống phần mềm." />
-        <Run Text=" " />
+        <Run Text="Menu chính là nơi chứa các chức năng giúp bạn quản lý, truy cập toàn bộ hệ thống phần mềm." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Menu nhanh" Foreground="#5B9BD5" />
@@ -113,8 +111,7 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Menu nhanh là nơi " Foreground="#000000" />
-        <Run Text="chứa các chức năng thường được sử dụng nhất." />
+        <Run Text="Menu nhanh là nơi chứa các chức năng thường được sử dụng nhất." Foreground="#000000" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Đổi mật khẩu" Foreground="#5B9BD5" />
@@ -174,7 +171,7 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Chọn 'Đăng xuất' ở menu chính(Hệ Thống &gt; Đăng xuất), sau đó nhấn Yes để xác nhận đăng xuất" />
+        <Run Text="Chọn 'Đăng xuất' ở menu chính(Hệ Thống &gt; Đăng xuất), sau đó nhấn 'Yes' để xác nhận đăng xuất" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Image Source="media/image8.png" Stretch="None" />
@@ -187,7 +184,7 @@
         <Run Text="Cho phép người dùng thoát khỏi ứng dụng." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
-        <Image Source="media/image9.png" />
+        <Image Source="media/image9.png" Stretch="None" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
@@ -203,14 +200,14 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn tổ hợp phím Ctrl + Q" />
+                <Run Text="Nhấn tổ hợp phím 'Ctrl + Q'" />
             </Paragraph>
         </ListItem>
     </List>
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn nút X trên thanh tiêu đề" />
+                <Run Text="Nhấn nút 'X' trên thanh tiêu đề" />
             </Paragraph>
         </ListItem>
     </List>
@@ -219,7 +216,7 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Ứng dụng sẽ xác nhận bạn có muốn thoát không: nhấn Yes để thoát, No để hủy" />
+        <Run Text="Ứng dụng sẽ xác nhận bạn có muốn thoát không: nhấn 'Yes' để thoát, 'No' để hủy" />
     </Paragraph>
 </FlowDocument>
 

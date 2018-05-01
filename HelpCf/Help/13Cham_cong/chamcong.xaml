@@ -79,11 +79,11 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Chấm công" />
+        <Run Text="13. Chấm công" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào chức năng chấm công" />
+        <Run Text="Người dùng nhấp chuột vào chức năng 'Chấm công'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -103,7 +103,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Trên khung sau khi chấm công sẽ hiện các màu đó để thể hiện ngày công cuối tháng thanh toàn lương" />
+        <Run Text="Trên khung sau khi chấm công sẽ hiện các màu đó để thể hiện ngày công cuối tháng thanh toán lương" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

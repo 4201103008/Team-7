@@ -79,23 +79,19 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Báo cáo" />
+        <Run Text="17. Thống kê" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xem báo cáo: để admin xem các báo cáo do các nhân viên gửi " Foreground="#5B9BD5" />
+        <Run Text="Người dùng chọn chức năng thống kê" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn chức năng xem báo cáo" />
+        <Run Text="Hệ thống xuất hiện form thống kê" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form xem báo cáo" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào bảng có tiêu đề, ngày để xem báo cáo" />
+        <Run Text="Người dùng chọn doanh thu hay mặt hàng, rồi chọn ngày tháng, chọn xem để xem thống kê doanh thu tính theo ngày" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -103,47 +99,5 @@
       Embedded Image: rId4,
       Package Name: /word/media/image1.png-->
         <Image Source="media/image1.png" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng xem xong có thể nhấn chuột vào xóa để xóa báo cáo đó" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiên form xác nhận xóa báo cáo" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa thì chọn yes, ngược lại chọn no" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <!--
-      Embedded Image: rId5,
-      Package Name: /word/media/image2.png-->
-        <Image Source="media/image2.png" Stretch="None" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Gửi báo cáo(nhân viên gửi báo cáo cho chủ quán)" Foreground="#5B9BD5" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn chức năng gửi báo cáo" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form gửi báo cáo cho chủ quán" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền thông tin vào form đó rồi chọn gửi để gửi, ngược lại chọn hủy" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <!--
-      Embedded Image: rId6,
-      Package Name: /word/media/image3.png-->
-        <Image Source="media/image3.png" Stretch="None" />
     </Paragraph>
 </FlowDocument>

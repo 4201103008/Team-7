@@ -93,7 +93,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="10. Bán Hàng và Hóa Đơn:" />
+        <Run Text="10. Hóa Đơn và Bán Hàng:" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Heading1}">

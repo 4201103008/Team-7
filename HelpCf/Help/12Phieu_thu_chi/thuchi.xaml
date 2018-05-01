@@ -79,18 +79,16 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Phiếu nhập hàng" />
+        <Run Text="12. Phiếu thu – Phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng phiếu nhập" />
+        <Run Text="Người dùng nhấp vào chức năng 'Thu chi'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form danh sách nhân viên, trên form có các chức năng nhỏ khác là thêm mới, chỉnh sửa, xóa, in lại" />
+        <Run Text="Hệ thống xuất hiện form danh sách phiếu thu, danh sách phiếu chi" />
     </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -100,38 +98,20 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Thêm mới" Foreground="#5B9BD5" />
+        <Run Text="Thêm mới (Phiếu thu)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng thêm mới" />
+        <Run Text="Người dùng nhấp chuột vào 'Thêm mới' ở danh sách phiếu thu" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống sẽ xuất hiện form tạo phiếu nhập kho, trên form này có các tùy chọn thêm / giảm / xóa" />
+        <Run Text="Hệ thống xuất hiện form tạo phiếu thu" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng thêm / giảm / xóa  thông tin cần thêm mới vào form đó" />
+        <Run Text="Người dùng nhập thông tin vào form tạo phiếu thu, rồi chọn 'Lập phiếu' để tạo mới phiếu thu hoặc 'Hủy'" />
     </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Thêm: người dùng chọn nhà cung cấp, hệ thống sẽ tự cập nhật mặt hàng, ĐVT, giá nhập mà nhà cung cấp đó có vào bảng rồi nhấn thêm để thêm" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Giảm: người dùng chọn mặt hàng ở ô có mặt hàng, SL, ĐVT, giá nhập rồi nhấn giảm để giảm" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa: người dùng chọn mặt hàng ở ô có mặt hàng, SL, ĐVT, giá nhập rồi nhấn xóa để xóa" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thanh toán vá in / thanh toán / lưu tạm / hủy" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -141,43 +121,19 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chỉnh sửa" Foreground="#5B9BD5" />
+        <Run Text="Thêm mới (Phiếu chi)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Lưu ý: phiếu nhập chưa thanh toán mới sửa được " Foreground="#FF0000" />
+        <Run Text="Người dùng nhấp chuột vào 'Thêm mới' ở danh sách phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn phiếu số phiếu nhập cần chỉnh sửa" />
+        <Run Text="Hệ thống xuất hiện form tạo phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng Chỉnh sửa" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống sẽ xuất hiện form sửa phiếu nhập, trên form này có các tùy chọn thêm / giảm / xóa" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng thêm / giảm / xóa  thông tin cần thêm mới vào form đó" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Thêm: người dùng chọn nhà cung cấp, hệ thống sẽ tự cập nhật mặt hàng, ĐVT, giá nhập mà nhà cung cấp đó có vào bảng rồi nhấn thêm để thêm" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Giảm: người dùng chọn mặt hàng ở ô có mặt hàng, SL, ĐVT, giá nhập rồi nhấn giảm để giảm" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa: người dùng chọn mặt hàng ở ô có mặt hàng, SL, ĐVT, giá nhập rồi nhấn xóa để xóa" />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thanh toán và in / thanh toán / lưu tạm / hủy" />
+        <Run Text="Người dùng nhập thông tin vào form tạo phiếu chi, rồi chọn 'Lập phiếu' và 'In và lập phiếu/Hủy'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -192,15 +148,15 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn số phiếu cần xóa" />
+        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu (phiếu chi)" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form xác nhận xóa phiếu nhập" />
+        <Run Text="Hệ thống xuất hiện thông báo xác nhận xóa phiếu thu (phiếu chi)" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nếu muốn xóa thì chọn yes, ngược lại chọn no" />
+        <Run Text="Chọn 'Yes' để xóa, ngược lại chọn 'No'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -215,11 +171,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn số phiếu muốn in lại " />
-    </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chọn in lại để in lại" />
+        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu (phiếu chi) rồi chọn 'In lại' để in lại" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />

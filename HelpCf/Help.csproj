@@ -153,17 +153,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Help\1Lam_quen\media\image1.png" />
-    <Resource Include="Help\1Lam_quen\media\image10.png" />
-    <Resource Include="Help\1Lam_quen\media\image2.png" />
-    <Resource Include="Help\1Lam_quen\media\image3.png" />
-    <Resource Include="Help\1Lam_quen\media\image4.png" />
-    <Resource Include="Help\1Lam_quen\media\image5.png" />
-    <Resource Include="Help\1Lam_quen\media\image6.png" />
-    <Resource Include="Help\1Lam_quen\media\image7.png" />
-    <Resource Include="Help\1Lam_quen\media\image8.png" />
-    <Resource Include="Help\1Lam_quen\media\image9.png" />
-    <Resource Include="Help\2Cai_dat\media\image1.png" />
     <Resource Include="Help\6Nhan_vien\media\image1.png" />
     <Resource Include="Help\6Nhan_vien\media\image2.png" />
     <Resource Include="Help\6Nhan_vien\media\image3.png" />
@@ -206,47 +195,64 @@
     <Resource Include="Help\9Tai_khoan\media\image4.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image1.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image2.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image3.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image4.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image5.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image6.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image7.png" />
-    <Resource Include="Help\10Hoa_don_ban_hang\media\image8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Help\11Phieu_nhap_hang\media\image1.png" />
-    <Resource Include="Help\11Phieu_nhap_hang\media\image2.png" />
-    <Resource Include="Help\11Phieu_nhap_hang\media\image3.png" />
-    <Resource Include="Help\11Phieu_nhap_hang\media\image4.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Help\12Phieu_thu_chi\media\image1.png" />
     <Resource Include="Help\12Phieu_thu_chi\media\image2.png" />
     <Resource Include="Help\12Phieu_thu_chi\media\image3.png" />
     <Resource Include="Help\12Phieu_thu_chi\media\image4.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Help\13Cham_cong\media\image1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Help\14Tru_luong_ung_luong\media\image1.png" />
     <Resource Include="Help\14Tru_luong_ung_luong\media\image2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Help\15Tinh_luong\media\image1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Help\16Bao_cao\media\image1.png" />
-    <Resource Include="Help\16Bao_cao\media\image2.png" />
-    <Resource Include="Help\16Bao_cao\media\image3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Help\17Thong_ke\media\image1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Help\0Gioi_thieu\media\image1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image1.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image2.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image3.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image4.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image5.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image6.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image7.PNG" />
+    <Resource Include="Help\10Hoa_don_ban_hang\media\image8.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\11Phieu_nhap_hang\media\image1.PNG" />
+    <Resource Include="Help\11Phieu_nhap_hang\media\image2.PNG" />
+    <Resource Include="Help\11Phieu_nhap_hang\media\image3.PNG" />
+    <Resource Include="Help\11Phieu_nhap_hang\media\image4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\13Cham_cong\media\image1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\15Tinh_luong\media\image1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\16Bao_cao\media\image1.PNG" />
+    <Resource Include="Help\16Bao_cao\media\image2.PNG" />
+    <Resource Include="Help\16Bao_cao\media\image3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\17Thong_ke\media\image1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\1Lam_quen\media\image1.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image10.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image2.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image4.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image5.png" />
+    <Resource Include="Help\1Lam_quen\media\image6.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image7.png" />
+    <Resource Include="Help\1Lam_quen\media\image8.PNG" />
+    <Resource Include="Help\1Lam_quen\media\image9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\1Lam_quen\media\image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\2Cai_dat\media\image1.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
