@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Ca làm" Foreground="#5B9BD5"/>
+        <Run Text="4. Ca làm" Foreground="#5B9BD5"/>
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -87,7 +87,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để sử dụng chức năng quán lý ca làm thì bạn cẩn phải đăng nhập với tài khoản có quyển quản lý ca làm." />
+        <Run Text="Để sử dụng chức năng quán lý ca làm thì bạn cẩn phải đăng nhập với tài khoản có quyền quản lý ca làm." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -129,7 +129,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nhấn nút 'Thêm' để xác nhận thêm ca hoặc nhấn nút Hủy để hủy thêm." />
+        <Run Text="Nhấn nút 'Thêm' để xác nhận thêm ca hoặc nhấn nút 'Hủy' để hủy thêm." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -163,7 +163,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn nút 'Sửa' để lưu thay đổi hoặc nhấn hủy để hủy sửa đổi." />
+        <Run Text="Nhấn nút 'Sửa' để lưu thay đổi hoặc nhấn 'Hủy' để hủy sửa đổi." />
         <Run Text=" " />
     </Paragraph>
     <!--Paragraph-->
@@ -175,8 +175,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa" Foreground="#5B9BD5" />
-        <Run Text=" ca làm" Foreground="#5B9BD5" />
+        <Run Text="Xóa ca làm" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -219,7 +218,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn Yes để xác nhận xóa, hoặc No để hủy." />
+        <Run Text="Nhấn 'Yes' để xác nhận xóa, hoặc 'No' để hủy." />
     </Paragraph>
 </FlowDocument>
 

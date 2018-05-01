@@ -254,6 +254,12 @@
   <ItemGroup>
     <Resource Include="Help\2Cai_dat\media\image1.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\5Chuc_vu\media\image5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Help\8Mat_hang\media\image5.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

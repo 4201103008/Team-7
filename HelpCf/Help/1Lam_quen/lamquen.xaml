@@ -34,7 +34,7 @@
         </Style>
     </FlowDocument.Resources>
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Làm quen với Sư phạm Cafe" Foreground="#5B9BD5" FontSize="20" />
+        <Run Text="1. Làm quen với Sư phạm Cafe" Foreground="#5B9BD5" FontSize="20" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Đăng nhập" Foreground="#5B9BD5" />

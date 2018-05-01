@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Bàn" />
+        <Run Text="3. Bàn" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -167,7 +167,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Lúc này hệ thống sẽ hỏi bạn có chắc chắn muốn xóa bàn đó không? Nhấn Yes để xác nhận xóa bàn hoặc nhấn No để hủy lệnh xóa." />
+        <Run Text="Lúc này hệ thống sẽ hỏi bạn có chắc chắn muốn xóa bàn đó không? Nhấn 'Yes' để xác nhận xóa bàn hoặc nhấn 'No' để hủy lệnh xóa." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

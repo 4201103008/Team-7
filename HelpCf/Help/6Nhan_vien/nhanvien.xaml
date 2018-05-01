@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Nhân viên" />
+        <Run Text="6. Nhân viên" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -106,7 +106,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng thêm mới" />
+        <Run Text="Người dùng nhấp vào chức năng 'Thêm mới'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -118,12 +118,8 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thêm để thêm hoặc hủy " />
+        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn 'Thêm' để thêm hoặc 'Hủy'." />
     </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -141,7 +137,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng Chỉnh sửa" />
+        <Run Text="Người dùng nhấp vào chức năng 'Chỉnh sửa'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -153,10 +149,8 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn sửa để hệ thống sửa hoặc hủy " />
+        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn 'Sửa' để hệ thống sửa hoặc 'Hủy'" />
     </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -174,7 +168,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng sắp lịch" />
+        <Run Text="Người dùng nhấp vào chức năng 'Sắp lịch'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -186,10 +180,8 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc sắp lịch thì chọn đổi lịch để hệ thống đổi lịch hoặc hủy " />
+        <Run Text="Sau cùng để kết thúc việc sắp lịch thì chọn 'Đổi lịch' để hệ thống đổi lịch hoặc 'Hủy'" />
     </Paragraph>
-    <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -207,7 +199,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng đổi chức vụ" />
+        <Run Text="Người dùng nhấp vào chức năng 'Đổi chức vụ'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -219,7 +211,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thay đổi thì chọn đổi để hệ thống đổi chức vụ hoặc hủy " />
+        <Run Text="Sau cùng để kết thúc việc thay đổi thì chọn 'Đổi' để hệ thống đổi chức vụ hoặc 'Hủy'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -238,7 +230,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng xóa" />
+        <Run Text="Người dùng nhấp vào chức năng 'Xóa'" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -246,7 +238,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nếu xóa thì chọn yes, ngược lại chọn no để kết thúc" />
+        <Run Text="Nếu xóa thì chọn 'Yes', ngược lại chọn 'No' để kết thúc" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="Chức vụ" />
+        <Run Text="5. Chức vụ" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -203,7 +203,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Hệ thống sẽ xác nhận bạn có chắc chắn xóa không. Nhấn Yes để xóa hoặc No để hủy xóa." />
+        <Run Text="Hệ thống sẽ xác nhận bạn có chắc chắn xóa không hay là cảnh báo còn nhân viên mang chức vụ này nên không thể xóa. Nếu chức vụ có thể xóa được, nhấn 'Yes' để xóa hoặc 'No' để hủy xóa." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -211,6 +211,13 @@
       Embedded Image: rId7,
       Package Name: /word/media/image4.png-->
         <Image Source="media/image4.png" Stretch="None"/>
+    </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}">
+        <!--
+      Embedded Image: rId9,
+      Package Name: /word/media/image5.png-->
+        <Image Source="media/image5.png"  Stretch="None"/>
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />
