@@ -1,0 +1,54 @@
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\PrintCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\PrintCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\DataCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\DataCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_HoaDon.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf_MarkupCompile.cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf_MarkupCompile.lref
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_HoaDon.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.g.resources
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.Properties.Resources.resources
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\PrintCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\StyleCF.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\StyleCF.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_PhieuNhap.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_PhieuNhap.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\Cafe.ldf
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\Cafe.mdf
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_YeuCauTT.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_YeuCauTT.baml
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\InforCf.dll
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\bin\Debug\InforCf.pdb
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_PhieuThuChi.g.cs
+D:\Documents\Visual Studio\Visual C#\Application\SgCafe\PrintCf\obj\Debug\Pr_PhieuThuChi.baml
+D:\SgCafe\PrintCf\bin\Debug\Cafe.ldf
+D:\SgCafe\PrintCf\bin\Debug\Cafe.mdf
+D:\SgCafe\PrintCf\bin\Debug\PrintCf.dll
+D:\SgCafe\PrintCf\bin\Debug\PrintCf.pdb
+D:\SgCafe\PrintCf\bin\Debug\DataCf.dll
+D:\SgCafe\PrintCf\bin\Debug\InforCf.dll
+D:\SgCafe\PrintCf\bin\Debug\StyleCF.dll
+D:\SgCafe\PrintCf\bin\Debug\DataCf.pdb
+D:\SgCafe\PrintCf\bin\Debug\InforCf.pdb
+D:\SgCafe\PrintCf\bin\Debug\StyleCF.pdb
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.csprojResolveAssemblyReference.cache
+D:\SgCafe\PrintCf\obj\Debug\Pr_HoaDon.g.cs
+D:\SgCafe\PrintCf\obj\Debug\Pr_PhieuThuChi.g.cs
+D:\SgCafe\PrintCf\obj\Debug\Pr_PhieuNhap.g.cs
+D:\SgCafe\PrintCf\obj\Debug\Pr_YeuCauTT.g.cs
+D:\SgCafe\PrintCf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\SgCafe\PrintCf\obj\Debug\PrintCf_MarkupCompile.cache
+D:\SgCafe\PrintCf\obj\Debug\PrintCf_MarkupCompile.lref
+D:\SgCafe\PrintCf\obj\Debug\Pr_HoaDon.baml
+D:\SgCafe\PrintCf\obj\Debug\Pr_PhieuThuChi.baml
+D:\SgCafe\PrintCf\obj\Debug\Pr_PhieuNhap.baml
+D:\SgCafe\PrintCf\obj\Debug\Pr_YeuCauTT.baml
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.g.resources
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.Properties.Resources.resources
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.csproj.GenerateResource.Cache
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.dll
+D:\SgCafe\PrintCf\obj\Debug\PrintCf.pdb

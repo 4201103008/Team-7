@@ -1,0 +1,150 @@
+﻿<Page x:Class="PrintCf.Pr_HoaDon"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PrintCf"
+      mc:Ignorable="d" Width="500" Foreground="#FF42353B" FontFamily="Times New Roman">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/StyleCF;component/PageStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <local:cvTinhTt x:Key="cvTinhtt"/>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid>
+        <Border BorderBrush="#FFD5EAEE" BorderThickness="1" CornerRadius="5" Margin="0,0,0,0"  Background="#FFD5EAEE"/>
+        <Border x:Name="isPrint" CornerRadius="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="10"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="2"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="TenQuan" Grid.Row="0" TextWrapping="Wrap" Text="Sư Phạm Cafe" FontFamily="Book Antiqua" FontSize="36" TextAlignment="Center" FontWeight="Bold" Foreground="#FF53372A"/>
+                    <TextBlock x:Name="DiaChi" Grid.Row="2" TextWrapping="Wrap" Text="250 An Dương Vương, Quận 5, TP. Hồ Chí Minh" TextAlignment="Center" Foreground="#FF53372A"/>
+                    <TextBlock x:Name="SDT" Grid.Row="4" TextWrapping="Wrap" Text="Điện thoại: 18002727" TextAlignment="Center" Foreground="#FF53372A"/>
+                    <TextBlock Grid.Row="6" TextWrapping="Wrap" Text="Hóa Đơn Thanh Toán" FontFamily="Book Antiqua" FontSize="20" TextAlignment="Center"/>
+                    <TextBlock Grid.Row="8" x:Name="SoHD" TextWrapping="Wrap" Text="Số Hóa Đơn: 0154802150" FontFamily="Book Antiqua" TextAlignment="Center" FontSize="14"/>
+                    <Grid Grid.Row="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="8*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" x:Name="Ban" TextWrapping="Wrap" Text="Bàn: Trệt 1" FontFamily="Book Antiqua"/>
+                        <TextBlock Grid.Column="3" x:Name="ThuNgan" TextWrapping="Wrap" Text="Thu ngân: Trần Thị Minh Huệ" FontFamily="Book Antiqua"/>
+                    </Grid>
+                    <Grid Grid.Row="12">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="4*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" x:Name="Ngay" TextWrapping="Wrap" Text="Ngày: 16-4-2018" FontFamily="Book Antiqua"/>
+                        <TextBlock Grid.Column="3" x:Name="GVao" TextWrapping="Wrap" Text="Giờ vào: 16:52:30" FontFamily="Book Antiqua"/>
+                        <TextBlock Grid.Column="5" x:Name="GRa" TextWrapping="Wrap" Text="Giờ ra: 17:22:30" FontFamily="Book Antiqua"/>
+                    </Grid>
+                    <TextBlock Grid.Row="14" TextWrapping="Wrap" Text="Danh sách đồ uống đã dùng:" FontFamily="Book Antiqua" Margin="20,0,0,0" FontSize="14"/>
+                    <Grid Grid.Row="16">
+                        <StackPanel>
+                            <ListView x:Name="dmThu" ItemsSource="{Binding}" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Margin="20,0">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn Header="Tên đồ uống" Width="162" DisplayMemberBinding="{Binding Path=TenHang}"/>
+                                        <GridViewColumn Header="Số lượng" Width="60" DisplayMemberBinding="{Binding Path=SoLuong}"/>
+                                        <GridViewColumn Header="Đơn giá" Width="100" DisplayMemberBinding="{Binding Path=GiaBan, StringFormat=0.00}"/>
+                                        <GridViewColumn Header="Thành tiền" Width="115">
+                                            <GridViewColumn.DisplayMemberBinding>
+                                                <MultiBinding Converter="{StaticResource cvTinhtt}" StringFormat="0.00">
+                                                    <Binding Path="SoLuong"/>
+                                                    <Binding Path="GiaBan"/>
+                                                </MultiBinding>
+                                            </GridViewColumn.DisplayMemberBinding>
+                                        </GridViewColumn>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </StackPanel>
+                    </Grid>
+                    <Grid Grid.Row="18">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20"/>
+                            <ColumnDefinition Width="5*"/>
+                            <ColumnDefinition Width="10"/>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="20"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="2"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="2"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="15"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Column="1" Grid.Row="0" TextWrapping="Wrap" Text="Tiền nước:"/>
+                        <TextBlock Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="Giảm giá:"/>
+                        <TextBlock Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" Text="VAT:"/>
+                        <TextBlock Grid.Column="3" Grid.Row="0" x:Name="TienNuoc" TextWrapping="Wrap" Text="45051050"/>
+                        <TextBlock Grid.Column="3" Grid.Row="2" x:Name="Giamgia" TextWrapping="Wrap" Text="0"/>
+                        <TextBlock Grid.Column="3" Grid.Row="4" x:Name="VAT" TextWrapping="Wrap" Text="10"/>
+                        <TextBlock Name="Tiente" Grid.Column="4" Grid.Row="0" TextWrapping="Wrap" Text="VND"/>
+                        <TextBlock Grid.Column="4" Grid.Row="2" TextWrapping="Wrap" Text="%"/>
+                        <TextBlock Grid.Column="4" Grid.Row="4" TextWrapping="Wrap" Text="%"/>
+                        <TextBlock Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Text="Tổng tiền:" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Name="TongTien" Grid.Column="3" Grid.Row="6" TextWrapping="Wrap" Text="1545102" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Grid.Column="4" Grid.Row="6" TextWrapping="Wrap" Text="{Binding ElementName=Tiente, Path=Text}" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Grid.Column="1" Grid.Row="7" TextWrapping="Wrap" Text="Tiền khách đưa:" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Name="Khachdua" Grid.Column="3" Grid.Row="7" TextWrapping="Wrap" Text="1545102" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Grid.Column="4" Grid.Row="7" TextWrapping="Wrap" Text="{Binding ElementName=Tiente, Path=Text}" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Grid.Column="1" Grid.Row="8" TextWrapping="Wrap" Text="Tiền trả lại:" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Name="tralai" Grid.Column="3" Grid.Row="8" TextWrapping="Wrap" Text="0" FontFamily="Book Antiqua" FontSize="16"/>
+                        <TextBlock Grid.Column="4" Grid.Row="8" TextWrapping="Wrap" Text="{Binding ElementName=Tiente, Path=Text}" FontFamily="Book Antiqua" FontSize="16"/>
+                    </Grid>
+                    <TextBlock Grid.Row="19" TextWrapping="Wrap" Text="Xin chân thành cám ơn quý khách! Hẹn gặp lại!" FontFamily="Book Antiqua" TextAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
