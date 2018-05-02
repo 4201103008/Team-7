@@ -79,15 +79,19 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="16. Báo cáo" />
+        <Run Text="Báo cáo" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xem báo cáo: để Administrator xem các báo cáo do các nhân viên gửi " Foreground="#5B9BD5" />
+        <Run Text="Xem báo cáo:" Foreground="#5B9BD5" />
+        <Run Text=" " Foreground="#5B9BD5" />
+        <Run Text="(để admin xem các báo cáo do các " Foreground="#5B9BD5" />
+        <Run Text="nhân viên" Foreground="#5B9BD5" />
+        <Run Text=" gửi)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn chức năng 'Xem báo cáo'" />
+        <Run Text="Người dùng chọn chức năng xem báo cáo" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -106,7 +110,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng xem xong có thể nhấn chuột vào 'Xóa' để xóa báo cáo đó" />
+        <Run Text="Người dùng xem xong có thể nhấn chuột vào xóa để xóa báo cáo đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -114,7 +118,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa thì chọn 'Yes', ngược lại chọn 'No'" />
+        <Run Text="Xóa thì chọn yes ,ngược lại chọn no" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -125,11 +129,13 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Gửi báo cáo (nhân viên có quyền quản lý gửi báo cáo cho chủ quán)" Foreground="#5B9BD5" />
+        <Run Text="Gử" Foreground="#5B9BD5" />
+        <Run Text="i báo cáo" Foreground="#5B9BD5" />
+        <Run Text=" (nhân viên gửi báo cáo cho chủ quán)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn chức năng 'Gửi báo cáo'" />
+        <Run Text="Người dùng chọn chức năng gửi báo cáo" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -137,7 +143,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền thông tin vào form đó rồi chọn gửi để 'Gửi', ngược lại chọn 'Hủy'" />
+        <Run Text="Người dùng điền thông tin vào form đó rồi chọn gửi để gửi ,ngược lại chọn hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

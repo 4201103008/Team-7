@@ -79,15 +79,15 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="12. Phiếu thu – Phiếu chi" />
+        <Run Text="Phiếu thu – Phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Thu chi'" />
+        <Run Text="Người dùng nhấp vào chức năng thu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form danh sách phiếu thu, danh sách phiếu chi" />
+        <Run Text="Hệ thống xuất hiện form danh sách phiếu thu,danh sách phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -98,11 +98,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Thêm mới (Phiếu thu)" Foreground="#5B9BD5" />
+        <Run Text="Thêm mới (phiếu thu)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào 'Thêm mới' ở danh sách phiếu thu" />
+        <Run Text="Người dùng nhấp chuột vào thêm mới ở danh sách phiếu thu" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -110,7 +110,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhập thông tin vào form tạo phiếu thu, rồi chọn 'Lập phiếu' để tạo mới phiếu thu hoặc 'Hủy'" />
+        <Run Text="Người dùng nhập thông tin vào form tạo phiếu thu,rồi chọn tạo để tạo mới phiếu thu hoặc hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -121,11 +121,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Thêm mới (Phiếu chi)" Foreground="#5B9BD5" />
+        <Run Text="Thêm mới(phiếu chi)" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào 'Thêm mới' ở danh sách phiếu chi" />
+        <Run Text="Người dùng nhấp chuột vào thêm mới ở danh sách phiếu chi" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -133,7 +133,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhập thông tin vào form tạo phiếu chi, rồi chọn 'Lập phiếu' và 'In và lập phiếu/Hủy'" />
+        <Run Text="Người dùng nhập thông tin vào form tạo phiếu chi,rồi chọn lập và in /lập phiếu / hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -148,15 +148,15 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu (phiếu chi)" />
+        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu(chi)" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện thông báo xác nhận xóa phiếu thu (phiếu chi)" />
+        <Run Text="Hệ thống xuất hiện thông báo xác nhận xóa phiếu thu (chi)" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chọn 'Yes' để xóa, ngược lại chọn 'No'" />
+        <Run Text="Chọn yes để xóa ,ngược lại chọn no" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -171,7 +171,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu (phiếu chi) rồi chọn 'In lại' để in lại" />
+        <Run Text="Người dùng nhấp vào số phiếu ở bảng danh sách phiếu thu(chi) rồi chọn in lại để in lại" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />

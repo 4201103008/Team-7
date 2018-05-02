@@ -79,15 +79,15 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="4. Ca làm" Foreground="#5B9BD5"/>
+        <Run Text="Ca làm" Foreground="#5B9BD5"/>
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Cho phép bạn tạo và chỉnh các ca làm việc và thời gian theo lịch làm việc của quán bạn."/>
+        <Run Text="Cho phép bạn tạo và chỉnh các cá làm việc và thời gian theo lịch làm việc của quán bạn."/>
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để sử dụng chức năng quán lý ca làm thì bạn cẩn phải đăng nhập với tài khoản có quyền quản lý ca làm." />
+        <Run Text="Để sử dụng chức năng quán lý ca làm thì bạn cẩn phải đăng nhập với tài khoản có quyển quản lý ca làm." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -102,7 +102,11 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Hệ thống sẽ xuất hiện cửa sổ danh sách ca làm như sau." />
+        <Run Text="Hệ thống" />
+        <Run Text=" sẽ xuất" />
+        <Run Text=" hiện cửa sổ danh sách " />
+        <Run Text="ca làm" />
+        <Run Text=" như sau." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -129,7 +133,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nhấn nút 'Thêm' để xác nhận thêm ca hoặc nhấn nút 'Hủy' để hủy thêm." />
+        <Run Text="Nhấn nút 'Thêm' để xác nhận thêm ca hoặc nhấn nút Hủy để hủy thêm." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -157,13 +161,13 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Trong cửa sổ sửa thông tin ca làm bạn thực hiện sửa các thông tin mong muốn." />
+        <Run Text="Trong cửa sổ sửa thông tin ca làm bạn thực hiện sửa các thông tin mông muốn." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn nút 'Sửa' để lưu thay đổi hoặc nhấn 'Hủy' để hủy sửa đổi." />
+        <Run Text="Nhấn nút 'Sửa' để lưu thay đổi hoặc nhấn hủy để hủy sửa đổi." />
         <Run Text=" " />
     </Paragraph>
     <!--Paragraph-->
@@ -175,11 +179,13 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Xóa ca làm" Foreground="#5B9BD5" />
+        <Run Text="Xóa" Foreground="#5B9BD5" />
+        <Run Text=" ca làm" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để xóa ca làm:" />
+        <Run Text="Để" />
+        <Run Text=" xóa ca làm:" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -197,7 +203,12 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Hệ thống sẽ hỏi bạn có chắc muốn xóa không hoặc cảnh báo cho bạn biết khi nhân viên đang làm việc trong ca này hoặc ca đang được dùng để chấm công." />
+        <Run Text="Hệ thống sẽ" />
+        <Run Text=" hỏi bạn có chắc muốn xóa không hoặc" />
+        <Run Text=" cảnh báo cho bạn biết khi" />
+        <Run Text=" nhân viên đang làm việc trong ca này" />
+        <Run Text=" hoặc" />
+        <Run Text=" ca đang được dùng để chấm công." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -218,7 +229,6 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn 'Yes' để xác nhận xóa, hoặc 'No' để hủy." />
+        <Run Text="Nhấn Yes để xác nhận xóa, hoặc No để hủy." />
     </Paragraph>
 </FlowDocument>
-

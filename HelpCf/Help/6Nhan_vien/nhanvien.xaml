@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="6. Nhân viên" />
+        <Run Text="Nhân viên" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -106,7 +106,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Thêm mới'" />
+        <Run Text="Người dùng nhấp vào chức năng thêm mới" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -114,12 +114,16 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền đánh dấu những thông tin cần thêm mới vào form đó" />
+        <Run Text="Người dùng điền  đánh dấu những thông tin cần thêm mới vào form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn 'Thêm' để thêm hoặc 'Hủy'." />
+        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thêm để thêm hoặc hủy " />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -137,7 +141,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Chỉnh sửa'" />
+        <Run Text="Người dùng nhấp vào chức năng Chỉnh sửa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -145,12 +149,14 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chỉnh sửa điền những thông tin cần ghi chú vào form đó" />
+        <Run Text="Người dùng  chỉnh sửa điền những thông tin cần ghi chú  vào form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn 'Sửa' để hệ thống sửa hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn sửa để hệ thống sửa hoặc hủy " />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -160,7 +166,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sắp lịch" Foreground="#5B9BD5" />
+        <Run Text="Sắp lịch" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -168,7 +174,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Sắp lịch'" />
+        <Run Text="Người dùng nhấp vào chức năng sắp lịch" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -176,12 +182,14 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng sắp lịch vào form đó" />
+        <Run Text="Người dùng  sắp lịch  vào form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc sắp lịch thì chọn 'Đổi lịch' để hệ thống đổi lịch hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc  sắp lịch thì chọn đổi lịch để hệ thống đổi lịch hoặc hủy " />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -199,7 +207,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Đổi chức vụ'" />
+        <Run Text="Người dùng nhấp vào chức năng đổi chức vụ" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -207,11 +215,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng thay đổi chức vụ ở form đó" />
+        <Run Text="Người dùng  thay đổichức  ở form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thay đổi thì chọn 'Đổi' để hệ thống đổi chức vụ hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc  thay đổi thì chọn đổi  để hệ thống đổi chức vụ hoặc hủy " />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -230,7 +238,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Xóa'" />
+        <Run Text="Người dùng nhấp vào chức năng xóa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -238,7 +246,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nếu xóa thì chọn 'Yes', ngược lại chọn 'No' để kết thúc" />
+        <Run Text="Nếu xóa thì chọn yes,ngược lại chọn no để kết thúc" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

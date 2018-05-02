@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="3. Bàn" />
+        <Run Text="Bàn" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -88,7 +88,7 @@
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Là danh sách toàn bộ những bàn trong quán dùng để bán hàng." />
+        <Run Text="Là danh sách toàn bộ những bàn trong quan dùng để bán hàng." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -149,7 +149,8 @@
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Để xóa bàn bạn làm như sau:" />
+        <Run Text="Để xóa bàn" />
+        <Run Text=" bạn làm như sau:" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -167,7 +168,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Lúc này hệ thống sẽ hỏi bạn có chắc chắn muốn xóa bàn đó không? Nhấn 'Yes' để xác nhận xóa bàn hoặc nhấn 'No' để hủy lệnh xóa." />
+        <Run Text="Lúc này hệ thống sẽ hỏi bạn có chắc chắn muốn xóa bàn đó không? Nhấn Yes để xác nhận xóa bàn hoặc nhấn No để hủy lệnh xóa." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

@@ -79,10 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="9. Tài Khoản" />
-    </Paragraph>
-    <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chỉ có Administrator mới truy cập được vào phần này." Foreground="#5B9BD5" />
+        <Run Text="Tài Khoản" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -90,8 +87,10 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form danh sách tài khoản, trên form có các chức năng nhỏ khác là 'Thêm mới', 'Chỉnh sửa', 'Xóa' " />
+        <Run Text="Hệ thống xuất hiện form danh sách tài khoản ,trên form có các chức năng nhỏ khác là thêm mới, chỉnh sửa ,xóa " />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -105,7 +104,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Thêm'" />
+        <Run Text="Người dùng nhấp vào chức năng Thêm" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -113,11 +112,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn loại nhân viên và điền những thông tin cần thêm mới trên form đó" />
+        <Run Text="Người dùng chọn loại nhân viên và điền những thông tin cần thêm mới trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm thì chọn 'Tạo tài khoản' để hệ thống thêm hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc thêm  thì chọn tạo tài khoản để hệ thống thêm hoặc hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -136,7 +135,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Sửa'" />
+        <Run Text="Người dùng nhấp vào chức năng  sửa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -144,11 +143,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền những thông tin cần sửa trên form đó" />
+        <Run Text="Người dùng điền những thông tin cần sửa trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc sửa thì chọn 'Thay đổi' để hệ thống sửa hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc  sửa thì chọn thay đổi để hệ thống sửa hoặc hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -163,11 +162,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chọn một tài khoản cần xóa" />
+        <Run Text="Chọn mặt tài khoản cần  xóa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Xóa'" />
+        <Run Text="Người dùng nhấp vào chức năng xóa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -175,7 +174,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nếu xóa thì chọn 'Yes', ngược lại chọn 'No' để kết thúc" />
+        <Run Text="Nếu xóa thì chọn yes,ngược lại chọn no để kết thúc" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

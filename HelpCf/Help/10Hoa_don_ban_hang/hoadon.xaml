@@ -93,18 +93,23 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="10. Hóa Đơn và Bán Hàng:" />
+        <Run Text="Bán Hàng và Hóa Đơn" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Heading1}">
-        <Run Text="Bán Hàng:" />
+        <Run Text="Bán Hàng" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để sử dụng chức năng bán hàng bạn cần làm theo các bước sau :" />
+        <Run Text=" " />
+        <Run Text="Để sữ dụng chức năng bán hàng" />
+        <Run Text=" bạn cần làm theo các bước sau" />
+        <Run Text=":" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
+        <Run Text=" " />
+        <Run Text=" " />
         <Run Text="Chọn vào chức năng bán hàng ở Menu nhanh hoặc menu chính (Hoạt động -&gt; Bán Hàng)" />
     </Paragraph>
     <!--Paragraph-->
@@ -116,7 +121,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để thêm một mặt hàng" Foreground="#5B9BD5" />
+        <Run Text="Để thêm một mặt hàng bàn" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -131,11 +136,11 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau đó nhấn chuột vào 'Thêm'" />
+        <Run Text="Sau đó nhấn chuột vào thêm" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Để xóa hay giảm một mặt hàng" Foreground="#5B9BD5" />
+        <Run Text="Để xóa hay giảm một mặt hàng " Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -150,7 +155,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Rồi nhấp chuột vào 'Xóa' hoặc 'Giảm'" />
+        <Run Text="Rồi nhấp chuột vào xóa hoặc giảm" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -158,7 +163,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào bàn cần chuyển rồi nhấp vào 'Chuyển'" />
+        <Run Text="Người dùng nhấp chuột vào bàn cần chuyển rồi nhấp vào chuyển" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -166,7 +171,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau đó chọn 'Chuyển/Hủy'" />
+        <Run Text="Sau đó chọn chuyển/hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -181,7 +186,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào bàn muốn gộp, sau đó chọn 'Gộp'" />
+        <Run Text="Người dùng  nhấp chuột vào bàn muốn gộp,sau đó chọn gộp " />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -189,7 +194,9 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Chọn 'Gộp' để gộp bàn lại, ngược lại chọn 'Hủy'" />
+        <Run Text="Chọn gộ để gộp," />
+        <Run Text=" " />
+        <Run Text="ngược lại chọn hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -204,7 +211,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào bàn muốn thanh toán sau đó chọn 'Thanh toán'" />
+        <Run Text="Người dùng nhấp chuột vào bàn muốn thanh toán sau đó chọn thanh toán" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -212,7 +219,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng điền thông tin vào form rồi 'Đóng bill', 'In/đóng bill' hay 'Hủy'" />
+        <Run Text="Người dùng điền thông tin vào form rồi đóng bill và in/đóng bill/hủy" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -227,7 +234,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp chuột vào bàn cần hủy hóa đơn sau đó chọn 'Hủy hóa đơn'" />
+        <Run Text="Người dùng nhấp chuột vào bàn cần hủy hóa đơn sau đó chọn hủy hóa đơn" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -235,7 +242,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn 'Yes/No'" />
+        <Run Text="Người dùng  chọn yes / no" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">

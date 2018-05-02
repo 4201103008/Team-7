@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="7. Nhà cung cấp" />
+        <Run Text="Nhà cung cấp" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -87,7 +87,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện form danh sách nhà cung cấp ,trên form có các chức năng nhỏ khác là thêm mới, chỉnh sửa và xóa" />
+        <Run Text="Hệ thống xuấ hiện form danh sách nhà cung cấp ,trên form có các chức năng nhỏ khác là thêm mới,chỉnh sửa và xóa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -111,11 +111,12 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn mặt hàng (ở đây có thể thêm/ xóa) và điền những thông tin cần thêm mới trên form đó" />
+        <Run Text="Người dùng chọn mặt hàng (ở đây có thể thêm/ xóa) và điền những thông tin cần thêm mới trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thêm để hệ thống thêm hoặc hủy" />
+        <Run Text="Sau cùng để kết thúc việc thêm mới thì chọn thêm để hệ thống thêm hoặc hủ" />
+        <Run Text="y" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -131,7 +132,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn nhà cung cấp cần chỉnh sửa" />
+        <Run Text="Người dụng chọn nhà cung cấp cần chỉnh sửa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -143,11 +144,12 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn mặt hàng (thêm / xóa) và điền những thông tin cần chỉnh sửa trên form đó" />
+        <Run Text="Người dùng chọn mặt hàng (thêm / xóa) và điền những thông tin cần chỉnh sửa trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn sửa để hệ thống sửa hoặc hủy" />
+        <Run Text="Sau cùng để kết thúc việc chỉnh sửa thì chọn sửa để hệ thống sửa hoặc hủ" />
+        <Run Text="y" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -177,6 +179,8 @@
         <Run Text="Nếu xóa thì chọn yes,ngược lại chọn no để kết thúc" />
     </Paragraph>
     <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
+    <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
       Embedded Image: rId7,
@@ -184,4 +188,3 @@
         <Image Source="media/image4.png" Stretch="None"/>
     </Paragraph>
 </FlowDocument>
-

@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="8. Mặt hàng" />
+        <Run Text="Mặt hàng" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -87,8 +87,10 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Hệ thống xuất hiện cửa sổ danh sách mặt hàng, trên form có các chức năng nhỏ khác là thêm mới, sửa, xóa và có tùy chọn có thể xem nguyên liệu ,sản phẩm hay tất cả." />
+        <Run Text="Hệ thống xuấ hiện cửa sổ danh sách mặt hàng,trên form có các chức năng nhỏ khác là thêm mới,sửa ,xóa và có tùy chọn có thể xem nguyên liệu ,sản phẩm hay tất cả" />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -110,13 +112,14 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn nhà cung cấp" />
-        <Run Text="(lưu ý" Foreground="#FF0000" />
-        <Run Text=": đây có thể (thêm/xóa) và điền những thông tin cần thêm mới trên form đó)" />
+        <Run Text="Người dùng chọn nhà cung cấp (" />
+        <Run Text="lưu ý" Foreground="#FF0000" />
+        <Run Text=":đây có thể thêm/ xóa) và điền những thông tin cần thêm mới trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc thêm thì chọn 'Thêm' để hệ thống thêm hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc thêm  thì chọn thêm để hệ thống thêm hoặc hủ" />
+        <Run Text="y" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -127,7 +130,8 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sửa" Foreground="#5B9BD5" />
+        <Run Text="Sử" Foreground="#5B9BD5" />
+        <Run Text="a" Foreground="#5B9BD5" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -135,7 +139,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Sửa'" />
+        <Run Text="Người dùng nhấp vào chức năng  sửa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -143,11 +147,12 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng chọn đơn vị tính và điền những thông tin cần sửa trên form đó" />
+        <Run Text="Người dùng chọn đơn vị tính và điền những thông tin cần sửa trên  form đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Sau cùng để kết thúc việc sửa thì chọn 'Sửa' để hệ thống sửa hoặc 'Hủy'" />
+        <Run Text="Sau cùng để kết thúc việc  sửa thì chọn sửa để hệ thống sửa hoặc hủ" />
+        <Run Text="y" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -166,7 +171,7 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Người dùng nhấp vào chức năng 'Xóa'" />
+        <Run Text="Người dùng nhấp vào chức năng xóa" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -174,19 +179,15 @@
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="Nếu xóa thì chọn 'Yes', ngược lại chọn 'No' để kết thúc" />
+        <Run Text="Nếu xóa thì chọn yes,ngược lại chọn no để kết thúc" />
     </Paragraph>
-    <Paragraph Style="{StaticResource Normal}">
-        <!--
-      Embedded Image: rId7,
-      Package Name: /word/media/image4.png-->
-        <Image Source="media/image5.png" Stretch="None"/>
     <!--Paragraph-->
-    </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Lưu ý" Foreground="#FF0000" />
-        <Run Text=": có những mặt hàng đang liên quan đến hóa đơn không xóa được, sẽ bị chặn không cho xóa." />
+        <Run Text=": có những mặt hàng đang liên quan đến hóa đơn không xóa được,sẽ bị chặn không cho xóa " />
     </Paragraph>
+    <!--Paragraph-->
+    <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <!--
@@ -197,4 +198,3 @@
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />
 </FlowDocument>
-

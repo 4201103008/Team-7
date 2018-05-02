@@ -79,11 +79,11 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="5. Chức vụ" />
+        <Run Text="Chức vụ" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text=" Quản lý chức vụ giúp bạn quản lý danh sách các chức vụ có trong quán và quyền hạn làm việc, nhiệm vụ của mỗi chức vụ." />
+        <Run Text=" Quản lý chức vụ giúp bạn quản lý danh sách các chức vụ có trong quán và quyền hạn làm việc, nhiệm vụ của mổi chức vụ." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -119,13 +119,13 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn vào nút 'Thêm Mới' trong cửa sổ danh sách chức vụ." />
+        <Run Text="Nhấn  vào nút 'Thêm Mới' trong cửa sổ danh sách chức vụ." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Trong cửa sổ Thêm chức vụ, bạn điền tên chức vụ và chọn các quyền truy cập vào chức năng cho chức vụ đó." />
+        <Run Text="Trong cửa sổ Thêm chức vụ, bạn điền tên chức vụ và chọn các quyền truy cập vào chức năng cho chức vụ đó" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -203,7 +203,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Hệ thống sẽ xác nhận bạn có chắc chắn xóa không hay là cảnh báo còn nhân viên mang chức vụ này nên không thể xóa. Nếu chức vụ có thể xóa được, nhấn 'Yes' để xóa hoặc 'No' để hủy xóa." />
+        <Run Text="Hệ thống sẽ xác nhận bạn có chắc chắn xóa không. Nhấn Yes để xóa hoặc No để hủy xóa." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -213,15 +213,7 @@
         <Image Source="media/image4.png" Stretch="None"/>
     </Paragraph>
     <!--Paragraph-->
-    <Paragraph Style="{StaticResource Normal}">
-        <!--
-      Embedded Image: rId9,
-      Package Name: /word/media/image5.png-->
-        <Image Source="media/image5.png"  Stretch="None"/>
-    </Paragraph>
-    <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}" />
 </FlowDocument>
-

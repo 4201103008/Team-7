@@ -34,7 +34,7 @@
         </Style>
     </FlowDocument.Resources>
     <Paragraph Style="{StaticResource Normal}">
-        <Run Text="1. Làm quen với Sư phạm Cafe" Foreground="#5B9BD5" FontSize="20" />
+        <Run Text="Làm quen với Sg Cafe" Foreground="#5B9BD5" FontSize="20" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Đăng nhập" Foreground="#5B9BD5" />
@@ -53,7 +53,8 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Chọn 'Tài khoản' ở ô tài khoản" />
+                <Run Text="Chọn tài khoản " />
+                <Run Text="ở ô tài khoản" />
             </Paragraph>
         </ListItem>
     </List>
@@ -67,7 +68,7 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn nút 'Đăng nhập" />
+                <Run Text="Nhấn nút 'Đăng nhập'" />
             </Paragraph>
         </ListItem>
     </List>
@@ -91,7 +92,7 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Vùng giữa là vùng làm việc." />
+        <Run Text="Vụng giữa là vùng làm việc." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Menu chính" Foreground="#5B9BD5" />
@@ -101,7 +102,8 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Menu chính là nơi chứa các chức năng giúp bạn quản lý, truy cập toàn bộ hệ thống phần mềm." />
+        <Run Text="Menu chính là nơi chứa các chức năng  giúp bạn quản lý, truy cập toàn bộ hệ thống phần mềm." />
+        <Run Text=" " />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Menu nhanh" Foreground="#5B9BD5" />
@@ -111,7 +113,9 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Menu nhanh là nơi chứa các chức năng thường được sử dụng nhất." Foreground="#000000" />
+        <Run Text="Menu nhanh là mơi " Foreground="#000000" />
+        <Run Text="chứa các chức năng thường được sử dụng nhất" />
+        <Run Text="." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text="Đổi mật khẩu" Foreground="#5B9BD5" />
@@ -130,21 +134,24 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Chọn 'Đổi mật khẩu' ở menu chính (Hệ Thống &gt; Đổi mật khẩu)." />
+                <Run Text="Chọn 'Đổi mật khẩu' ở menu chính (Hệ Thống &gt; Đổi mật khẩu)" />
+                <Run Text="." />
             </Paragraph>
         </ListItem>
     </List>
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Trong cửa sổ đổi mật khẩu, bạn điền mật khẩu cũ, mật khẩu mới và nhập lại mật khẩu mới." />
+                <Run Text="Trong cửa sổ đổi mật khẩu, bạn điền mật khẩu củ, mật khẩu mới và nhập lại mật khẩu mới" />
+                <Run Text="." />
             </Paragraph>
         </ListItem>
     </List>
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn nút 'Thay đổi'." />
+                <Run Text="Nhấn nút 'Thay đổi'" />
+                <Run Text="." />
             </Paragraph>
         </ListItem>
     </List>
@@ -153,7 +160,10 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Bạn cũng có thể hủy quá trình đổi mật khẩu bằng cách nhấn nút 'Hủy'." />
+        <Run Text="Bạn c" />
+        <Run Text="ũ" />
+        <Run Text="ng có thể hủy quá trình đổi mật khẩu bằng cách nhấn nút 'Hủy'" />
+        <Run Text="." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
@@ -164,14 +174,14 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Cho phép chủ tài khoản đăng xuất khỏi hệ thống" />
+        <Run Text="Cho phép chủ tài khoản  đăng xuất khỏi hệ thống" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Image Source="media/image7.png" Stretch="None" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Chọn 'Đăng xuất' ở menu chính(Hệ Thống &gt; Đăng xuất), sau đó nhấn 'Yes' để xác nhận đăng xuất" />
+        <Run Text="Chọn 'Đăng xuất' ở menu chính(Hệ Thống &gt; Đăng xuất), sau đó nhấn Yes để xác nhận đăng xuất" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Image Source="media/image8.png" Stretch="None" />
@@ -184,7 +194,7 @@
         <Run Text="Cho phép người dùng thoát khỏi ứng dụng." />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
-        <Image Source="media/image9.png" Stretch="None" />
+        <Image Source="media/image9.png" />
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
@@ -200,14 +210,14 @@
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn tổ hợp phím 'Ctrl + Q'" />
+                <Run Text="Nhấn tổ hợp phím Ctrl + Q" />
             </Paragraph>
         </ListItem>
     </List>
     <List FontFamily="Times New Roman" FontSize="14">
         <ListItem>
             <Paragraph>
-                <Run Text="Nhấn nút 'X' trên thanh tiêu đề" />
+                <Run Text="Nhấn nút X trên thanh tiêu đề" />
             </Paragraph>
         </ListItem>
     </List>
@@ -216,7 +226,6 @@
     </Paragraph>
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
-        <Run Text="Ứng dụng sẽ xác nhận bạn có muốn thoát không: nhấn 'Yes' để thoát, 'No' để hủy" />
+        <Run Text="Ứng dụng sẽ xác nhận bạn có muốn thoát không: nhấn Yes để thoát, No để hủy" />
     </Paragraph>
 </FlowDocument>
-

@@ -79,7 +79,7 @@
     </FlowDocument.Resources>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource NoSpacing}">
-        <Run Text="2. Cài đặt" />
+        <Run Text="Cài đặt" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -97,7 +97,9 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Sau khi đăng nhập bằng tài khoản Administrator, bạn chọn vào 'Cài đặt' ở menu chính (Hệ thống -> Cài đặt)." />
+        <Run Text="Sau khi đăng nhập bằng tài khoản " />
+        <Run Text="Administrator" />
+        <Run Text=", bạn chọn vào 'Cài đặt' ở menu chính (Hệ thống -> Cài đặt)." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -122,7 +124,8 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Nhấn nút 'Lưu' để lưu lại thay đổi (để hủy các thay đổi bạn nhấn nút 'Hủy')." />
+        <Run Text="Nhấn nút 'Lưu' để lưu lại thay đổi" />
+        <Run Text=" (để hủy các thay đổi bạn nhấn nút 'Hủy')." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -133,7 +136,7 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Các thông tin Tên quán, Địa chỉ, SĐT là thông tin quán cafe của bạn." />
+        <Run Text="Các thông tin Tên quán, Địa chỉ, SDT là thông tin quán cafe của bạn." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
@@ -145,31 +148,31 @@
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Giảm giá, tính bằng phần trăm, là số phần trăm tiền giảm giá cho mỗi hóa đơn." />
+        <Run Text="Giảm giá, tính bằng phần trăm, là số phần trăm tiền giảm giá cho mổi hóa đơn." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Tự động xóa dữ liệu cũ, nếu chức năng này được bật thì hệ thống có quyền xóa các tài liệu cũ của quán trước 1 thời gian xác định mà không cần xin phép bạn." />
+        <Run Text="Tự động xóa dữ liệu cũ, nếu chức năng này được bật thì hệ thống có quyền xóa các tài liệu củ của quán trước 1 thời gian xác định mà không cần xin phép bạn." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Trừ lương khi nghỉ không phép: dùng để thiết lập mức tiền phạt đối với những nhân viên nghỉ mà không có sự cho phép, bạn có thể thiết lập theo 2 chế độ khác nhau là trừ lương theo phần trăm mức lương của nhân viên đó hoặc trừ bằng một số tiền định trước cho mọi nhân viên." />
+        <Run Text="Trừ lượng khi nghỉ không phép: dùng để thiết lập mức tiền phạt đối với những nhân viên nghỉ mà không có sự cho phép" />
+        <Run Text=", bạn có thể thiết lập theo 2 chế độ khác nhau là trừ lương theo phần trăm mức lương của nhân viên đó hoặc trừ bằng một số tiền định trước cho mọi nhân viên." />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Đơn vị tiền tệ, dùng để ghi đơn vị tiền tệ cho các hóa đơn, phiếu…" />
+        <Run Text="Đơn vị tiền tệ, dùng để ghi đơn vị tiền tện cho các hóa đơn, phiếu, …" />
     </Paragraph>
     <!--Paragraph-->
     <Paragraph Style="{StaticResource Normal}">
         <Run Text=" " />
         <Run Text=" " />
-        <Run Text="Thông báo: nếu bật nó hệ thống sẽ thông báo cho bạn các thao thác làm việc có thành công hay thất bại, bạn có thể tắt nó đi nếu thấy nó làm phiền bạn." />
+        <Run Text="Thông báo nếu bật nó hệ thống sẽ thông báo cho bạn các thao thác làm việc có thành công hay thất bại, bạn có thể tắt nó đi nếu thấy nó làm phiền bạn." />
     </Paragraph>
 </FlowDocument>
-
