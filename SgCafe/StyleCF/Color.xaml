@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:StyleCF">
+
+    <SolidColorBrush x:Key="clSelectMenuItem" Color="#FFD5EAEE" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="clSeledBacMeIt" Color="#FFF7F7ED" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="clSeledBruMeIt" Color="#FF1C1E21" Opacity="0.3"/>
+
+    <SolidColorBrush x:Key="clSeledBacSuIt" Color="#FFD5EAEE" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="clHePoBackMeIt" Color="#FFF7F7ED" Opacity="0.8"/>
+
+    <SolidColorBrush x:Key="clHePoBruMeIt" Color="#FFB9C3CB" Opacity="0.8"/>
+
+    <SolidColorBrush x:Key="clEnibFalse" Color="#FF1A1A1D" Opacity="0.5"/>
+
+    <SolidColorBrush x:Key="clEnibFalse1" Color="#FFA8A8A8" Opacity="0.5"/>
+
+    <SolidColorBrush x:Key="clBackText" Color="White" Opacity="0.8"/>
+
+    <SolidColorBrush x:Key="clBrushText" Color="#FF989DA2" Opacity="0.5"/>
+
+    <SolidColorBrush x:Key="clSelectCombo" Color="#FF62CFCF" Opacity="0.8"/>
+
+    <SolidColorBrush x:Key="clSeledCombo" Color="#FF9B99AC" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="clMooveCombo" Color="#FFC8C5DC" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="MauChu" Color="#FF080808"/>
+
+    <SolidColorBrush x:Key="Vien1" Color="#FF1C1E21"/>
+
+    <LinearGradientBrush x:Key="NormalBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#FFF" Offset="0.0"/>
+                <GradientStop Color="#CCC" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="clWhite4" Color="White" Opacity="0.5"/>
+    <SolidColorBrush x:Key="clWhite8" Color="#FFF9F9F9" Opacity="0.5"/>
+    <SolidColorBrush x:Key="clCdkis" Color="#FFE8D9C8" Opacity="0.5"/>
+
+    <SolidColorBrush x:Key="clBluNa04" Color="#FFD0DEE8" Opacity="0.3"/>
+    <SolidColorBrush x:Key="clBluDa04" Color="#FF6F7C85" Opacity="0.4"/>
+    <SolidColorBrush x:Key="clCheckR" Color="#FF313C37" Opacity="0.8"/>
+    <SolidColorBrush x:Key="clBack" Color="#FF0B0C0B" Opacity="0.8"/>
+
+    <!--cua so chinh-->
+
+    <SolidColorBrush x:Key="clBackWinS" Color="White" Opacity="0.7"/>
+
+    <SolidColorBrush x:Key="clVienWinD" Color="#FF342D34" Opacity="0.5"/>
+    
+    <SolidColorBrush x:Key="clTieuDeWin" Color="#FFECE9F3" Opacity="0.9"/>
+
+    <!--cua so phu-->
+
+    <SolidColorBrush x:Key="clBack1WP" Color="White" Opacity="0.7"/>
+
+
+    <SolidColorBrush x:Key="clBack2WP" Color="#FF98A3B2" Opacity="0.7"/>
+
+
+    <SolidColorBrush x:Key="SelectCellDG" Color="#FF8EA3B4" Opacity="0.6"/>
+
+</ResourceDictionary>

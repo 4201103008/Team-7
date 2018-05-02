@@ -1,0 +1,10 @@
+D:\SgCafe\DataCf\bin\Debug\Cafe.ldf
+D:\SgCafe\DataCf\bin\Debug\Cafe.mdf
+D:\SgCafe\DataCf\bin\Debug\DataCf.dll.config
+D:\SgCafe\DataCf\bin\Debug\DataCf.dll
+D:\SgCafe\DataCf\bin\Debug\DataCf.pdb
+D:\SgCafe\DataCf\bin\Debug\StyleCF.dll
+D:\SgCafe\DataCf\bin\Debug\StyleCF.pdb
+D:\SgCafe\DataCf\obj\Debug\DataCf.dll
+D:\SgCafe\DataCf\obj\Debug\DataCf.pdb
+D:\SgCafe\DataCf\obj\Debug\DAO.csprojResolveAssemblyReference.cache

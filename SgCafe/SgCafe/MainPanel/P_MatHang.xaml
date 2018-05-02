@@ -1,0 +1,71 @@
+﻿<Page x:Class="SgCafe.MainPanel.P_MatHang"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SgCafe.MainPanel"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="900"
+      Title="P_MatHang">
+    <Page.Resources>
+        <local:LoaiMHcv x:Key="coverMH"/>
+    </Page.Resources>
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border  Grid.Row="0" CornerRadius="5" Margin="0,0,0,0">
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.5"/>
+            </Border.Background>
+            <TextBlock Margin="10,7,10,7" TextWrapping="Wrap" TextAlignment="Center" Text="Danh Sách Mặt Hàng"/>
+        </Border>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock HorizontalAlignment="Left" Margin="0,8,0,0" TextWrapping="Wrap" Text="Loại hàng:" VerticalAlignment="Top"/>
+                    <ComboBox x:Name="comboLoai" HorizontalAlignment="Left" Width="100" IsReadOnly="True" VerticalAlignment="Top" Height="23" Margin="60,4,0,0" SelectionChanged="comboLoai_SelectionChanged">
+                        <ComboBoxItem Content="Nguyên liệu"/>
+                        <ComboBoxItem Content="Sản phẩm"/>
+                        <ComboBoxItem Content="Tất cả" IsSelected="True"/>
+                    </ComboBox>
+                    <Button x:Name="themMoi" Content="Thêm" Margin="0,4,180,0" HorizontalAlignment="Right" Width="80" Height="23" VerticalAlignment="Top" Click="themMoi_Click"/>
+                    <Button x:Name="sua" IsEnabled="False" Content="Sửa" Margin="0,4,90,3" HorizontalAlignment="Right" Width="80" Click="chinhSua_Click"/>
+                    <Button x:Name="xoa" IsEnabled="False" Content="Xóa" HorizontalAlignment="Right" Width="80" Height="22" VerticalAlignment="Top" Margin="0,4,0,0" Click="xoa_Click"/>
+                </Grid>
+                <ListView x:Name="listMatHang" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged}" Margin="0" Grid.Row="1" SelectionChanged="listMatHang_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Tên hàng" Width="130" DisplayMemberBinding="{Binding TenHang}"/>
+                            <GridViewColumn Header="Loại" Width="70" DisplayMemberBinding="{Binding Loai, Converter={StaticResource coverMH}}"/>
+                            <GridViewColumn Header="Đơn vị tính" Width="100" DisplayMemberBinding="{Binding DonViTinh}"/>
+                            <GridViewColumn Header="Giá bán" Width="100" DisplayMemberBinding="{Binding GiaBan, StringFormat=0.00}"/>
+                            <GridViewColumn Header="Số lượng hiện có" Width="100" DisplayMemberBinding="{Binding SoLuong}"/>
+                            <GridViewColumn Header="Ghi chú" Width="200" DisplayMemberBinding="{Binding GhiChu}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+            <Grid Grid.Column="1">
+                <ListView x:Name="listCungCap" ItemsSource="{Binding}" Margin="10,30,0,0">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Nhà Cung Cấp" Width="190" DisplayMemberBinding="{Binding TenNCC}"/>
+                            <GridViewColumn Header="Giá Nhập" Width="100" DisplayMemberBinding="{Binding GiaNhap, StringFormat=0.00}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+            <TextBlock x:Name="textBlock" Grid.Column="1" Margin="10,7,0,0" TextWrapping="Wrap" Text="Cung Cấp Bởi" VerticalAlignment="Top" TextAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Page>
