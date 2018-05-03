@@ -8,7 +8,7 @@ namespace DataCf
 {
     public class CFConnectinString
     {
-        protected static string ConnectionString = @"server=DESKTOP-GIDAJV6\BINH; database = QLCF ;Integrated Security=True";
+        protected static string ConnectionString = @"Data Source=DESKTOP-GIDAJV6\BINH;database=QLCF;Integrated Security=True";
         private static DataLQDataContext _db = null;
 
         protected static DataLQDataContext db

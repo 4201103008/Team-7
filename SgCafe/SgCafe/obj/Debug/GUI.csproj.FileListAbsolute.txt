@@ -188,6 +188,3 @@ D:\SgCafe\SgCafe\obj\Debug\GUI.csproj.GenerateResource.Cache
 D:\SgCafe\SgCafe\obj\Debug\SgCafe.exe.licenses
 D:\SgCafe\SgCafe\obj\Debug\SgCafe.exe
 D:\SgCafe\SgCafe\obj\Debug\SgCafe.pdb
-C:\Users\user\Desktop\SgCafe\SgCafe\bin\Debug\SgCafe.exe.config
-C:\Users\user\Desktop\SgCafe\SgCafe\obj\Debug\SgCafe.exe
-C:\Users\user\Desktop\SgCafe\SgCafe\obj\Debug\SgCafe.pdb

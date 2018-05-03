@@ -14,11 +14,11 @@
         <Grid Grid.Row="0">
             <Border Margin="-1,0,-1,5" CornerRadius="0,0,5,5" Background="{DynamicResource clBack1WP}">
                 <Grid>
-                    <Label Content="Mật khẩu củ:" HorizontalAlignment="Left" Margin="10,20,0,0" Height="26" VerticalAlignment="Top"/>
+                    <Label Content="Mật khẩu cũ:" HorizontalAlignment="Left" Margin="10,20,0,0" Height="26" VerticalAlignment="Top"/>
                     <PasswordBox x:Name="mkcu" Margin="100,23,30,0" VerticalAlignment="Top" KeyUp="mkcu_KeyUp"/>
                     <Label Content="Mật khẩu mới:" HorizontalAlignment="Left" Margin="10,70,0,0" Height="26" VerticalAlignment="Top"/>
                     <PasswordBox x:Name="mkmoi" Margin="100,73,30,0" VerticalAlignment="Top" IsEnabled="False" KeyUp="mkmoi_KeyUp"/>
-                    <Label Content="Nhập lại:" HorizontalAlignment="Left" Margin="10,100,0,0" Height="26" VerticalAlignment="Top"/>
+                    <Label Content="Xác thực:" HorizontalAlignment="Left" Margin="10,100,0,0" Height="26" VerticalAlignment="Top"/>
                     <PasswordBox x:Name="nlmk" Margin="100,103,30,0" VerticalAlignment="Top" IsEnabled="False" KeyUp="nlmk_KeyUp"/>
                     <Image x:Name="checkmkc" Opacity="0.7" HorizontalAlignment="Right" Height="16" Margin="0,26,10,0" VerticalAlignment="Top" Width="16" Source="/SgCafe;component/Icon/Check/HideUncheck.png"/>
                     <Image x:Name="checkmkm" Opacity="0.7" HorizontalAlignment="Right" Height="16" Margin="0,76,10,0" VerticalAlignment="Top" Width="16" Source="/SgCafe;component/Icon/Check/HideUncheck.png"/>

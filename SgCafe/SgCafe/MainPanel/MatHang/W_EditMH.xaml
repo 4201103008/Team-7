@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:SgCafe.MainPanel.MatHang"
         xmlns:grleg="clr-namespace:SgCafe"
         mc:Ignorable="d" Style="{StaticResource wd_ScWindows}"
-        Title="Sữa Thông Tin Mặt Hàng" Height="450" Width="600" WindowStartupLocation="CenterScreen">
+        Title="Sửa Thông Tin Mặt Hàng" Height="450" Width="600" WindowStartupLocation="CenterScreen">
     <Grid x:Name="PnC">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>

@@ -148,7 +148,7 @@
                                             <Rectangle Fill="Transparent" Tag="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}" Margin="0,0,40,0" MouseLeftButtonDown="Rectangle_MouseDown"/>
                                             <Grid Height="33" Margin="0,0,40,0" VerticalAlignment="Top" Tag="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}" MouseLeftButtonDown="Rectangle_MouseDown">
                                                 <Image x:Name="img_Icon" HorizontalAlignment="Left" Margin="10,4,0,4" Width="22" Height="22" Source="{TemplateBinding Icon}"/>
-                                                <Label x:Name="lab_TieuDe" Content="" RenderTransformOrigin="0.556,0.346" Foreground="{DynamicResource clTieuDeWin}" Margin="37,6,-2,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold"/>
+                                                <Label x:Name="lab_TieuDe" Content="{TemplateBinding Title}" RenderTransformOrigin="0.556,0.346" Foreground="{DynamicResource clTieuDeWin}" Margin="37,6,-2,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="12" FontWeight="Bold"/>
                                             </Grid>
                                             <Grid HorizontalAlignment="Right" Height="33" VerticalAlignment="Top" Width="40">
                                                 <Button x:Name="bt_Close" Style="{StaticResource wds_CommandsExit}" Margin="2,5,5,8" BorderThickness="0" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Right" Width="30" Click="bt_Close_Click" Tag="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}">

@@ -1,0 +1,11 @@
+D:\SgCafe\InforCf\bin\Debug\Cafe.ldf
+D:\SgCafe\InforCf\bin\Debug\Cafe.mdf
+D:\SgCafe\InforCf\bin\Debug\InforCf.dll
+D:\SgCafe\InforCf\bin\Debug\InforCf.pdb
+D:\SgCafe\InforCf\bin\Debug\DataCf.dll
+D:\SgCafe\InforCf\bin\Debug\DataCf.pdb
+D:\SgCafe\InforCf\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\SgCafe\InforCf\obj\Debug\InforCf.Properties.Resources.resources
+D:\SgCafe\InforCf\obj\Debug\BUS.csproj.GenerateResource.Cache
+D:\SgCafe\InforCf\obj\Debug\InforCf.dll
+D:\SgCafe\InforCf\obj\Debug\InforCf.pdb

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SgCafe.Windows.TroGiup"
         mc:Ignorable="d" Style="{StaticResource wd_ScWindows}" Closed="Window_Closed"
-        Title="Hướng dẩn sử dụng phần mềm" Height="650" Width="900" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
+        Title="Hướng dẫn sử dụng phần mềm" Height="650" Width="900" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,0,-3" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="170"/>
